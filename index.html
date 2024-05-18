@@ -22,11 +22,62 @@
     
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map = L.map('map').setView([51.505, -0.09], 13); // Set initial view to London
-        
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+        var map;
+					  var schmier = new google.maps.LatLng(50.959089, 6.90171);
+
+					  var MY_MAPTYPE_ID = 'custom_style';
+
+					  function initialize() {
+
+						var featureOpts = [
+						 
+						];
+						
+						
+
+						var mapOptions = {
+						  zoom: 14,
+						  center: schmier,
+						  mapTypeControlOptions: {
+							mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+						  },
+						  mapTypeId: MY_MAPTYPE_ID
+						};
+
+						map = new google.maps.Map(document.getElementById('map-canvas'),
+							mapOptions);
+
+						var styledMapOptions = {
+						  name: 'Default Style'
+						};
+
+						var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+						map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+						
+					
+						
+						var marker = new google.maps.Marker({
+						  map:map,
+						  draggable:false,
+						  animation: google.maps.Animation.DROP,
+						  position: schmier,
+						  title: 'Schmierfinke'
+						});
+						
+						google.maps.event.addListener(marker, 'click', toggleBounce);
+					  }
+					  
+					  function toggleBounce() {
+
+						if (marker.getAnimation() != null) {
+						  marker.setAnimation(null);
+						} else {
+						  marker.setAnimation(google.maps.Animation.BOUNCE);
+						}
+					  }
+					  
+					  initialize();
     </script>
 </body>
 </html>
