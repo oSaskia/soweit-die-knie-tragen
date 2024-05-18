@@ -22,62 +22,41 @@
     
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map;
-					  var schmier = new google.maps.LatLng(50.959089, 6.90171);
+	var mymap = L.map('map-canvas').setView([50.95927, 6.90235], 16);
 
-					  var MY_MAPTYPE_ID = 'custom_style';
-
-					  function initialize() {
-
-						var featureOpts = [
-						 
-						];
-						
-						
-
-						var mapOptions = {
-						  zoom: 14,
-						  center: schmier,
-						  mapTypeControlOptions: {
-							mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-						  },
-						  mapTypeId: MY_MAPTYPE_ID
-						};
-
-						map = new google.maps.Map(document.getElementById('map-canvas'),
-							mapOptions);
-
-						var styledMapOptions = {
-						  name: 'Default Style'
-						};
-
-						var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-
-						map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-						
-					
-						
-						var marker = new google.maps.Marker({
-						  map:map,
-						  draggable:false,
-						  animation: google.maps.Animation.DROP,
-						  position: schmier,
-						  title: 'Schmierfinke'
-						});
-						
-						google.maps.event.addListener(marker, 'click', toggleBounce);
-					  }
-					  
-					  function toggleBounce() {
-
-						if (marker.getAnimation() != null) {
-						  marker.setAnimation(null);
-						} else {
-						  marker.setAnimation(google.maps.Animation.BOUNCE);
-						}
-					  }
-					  
-					  initialize();
+	    var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
+		maxZoom: 19
+	    }).addTo(mymap);
+	
+	    var wmsLayer = L.tileLayer.wms("https://www.wms.nrw.de/geobasis/wms_nw_dop", {
+		layers: 'nw_dop_rgb',
+		format: 'image/png',
+		transparent: true,
+		version: '1.3.0',
+		attribution: "Datenquelle: <a href='https://open.nrw/' target='_blank'>Geobasis NRW</a> (<a href='https://www.govdata.de/dl-de/zero-2-0' target='_blank'>DL-DE->Zero-2.0</a>)",
+		maxZoom: 19
+	    });
+	
+	    var marker = L.marker([50.95927, 6.90235]).addTo(mymap);
+	    marker.bindPopup("<b>Schmierfinke</b>").closePopup();
+	
+	    var baseMaps = {
+		"OpenStreetMap": openStreetMapLayer,
+		"Luftbilder": wmsLayer
+	    };
+	
+	    L.control.layers(baseMaps).addTo(mymap);
+	
+	    // Geosearch mit OpenStreetMap-Geocoder hinzufügen
+	    const search = new GeoSearch.GeoSearchControl({
+		provider: new GeoSearch.OpenStreetMapProvider(),
+		autoComplete: true, // Automatische Vervollständigung aktivieren
+		autoCompleteDelay: 250, // Verzögerung in Millisekunden
+		showMarker: true, // Zeigt einen Marker für das Suchergebnis an
+		showPopup: false, // Deaktiviert das Popup für den Marker
+	    });
+                    mymap.addControl(search);
     </script>
 </body>
 </html>
