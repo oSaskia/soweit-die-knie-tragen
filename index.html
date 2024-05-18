@@ -20,9 +20,13 @@
 <body>
     <div id="map"></div>
     
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-	var mymap = L.map('map-canvas').setView([50.95927, 6.90235], 16);
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch/dist/geosearch.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-geosearch/dist/bundle.min.js"></script>
+    
+	<script>
+	    var mymap = L.map('map-canvas').setView([50.95927, 6.90235], 16);
 
 	    var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
@@ -56,7 +60,7 @@
 		showMarker: true, // Zeigt einen Marker für das Suchergebnis an
 		showPopup: false, // Deaktiviert das Popup für den Marker
 	    });
-                    mymap.addControl(search);
+		    mymap.addControl(search);
     </script>
 </body>
 </html>
