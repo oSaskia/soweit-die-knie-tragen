@@ -14,6 +14,41 @@
             width: 100%;
             height: 100%;
         }
+        .popup-content {
+            text-align: center;
+            max-width: 200px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        .popup-content video {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .popup-content h3 {
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+        .popup-content .date {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        .popup-content .scrollable-text {
+            max-height: 100px;
+            overflow-y: auto;
+            text-align: left;
+            padding: 5px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
+        }
+        .popup-content p {
+            margin: 0 0 10px;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -23,10 +58,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch/dist/geosearch.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-geosearch/dist/bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
     
     <script>
-        var mymap = L.map('map').setView([52.46650, 13.43371], 16);
+        var mymap = L.map('map').setView([52.314917, 13.644611], 10);
 
         var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
@@ -41,11 +75,6 @@
             attribution: "Datenquelle: <a href='https://open.nrw/' target='_blank'>Geobasis NRW</a> (<a href='https://www.govdata.de/dl-de/zero-2-0' target='_blank'>DL-DE->Zero-2.0</a>)",
             maxZoom: 19
         });
-    
-        var marker = L.marker([52.46650, 13.43371], {
-            title: "Start - 17.05.24"
-        }).addTo(mymap);
-        marker.bindPopup("<b>Start - 17.05.24</b>").closePopup();
     
         var geojsonFeature = {
             "type": "Feature",
@@ -88,18 +117,46 @@
         });
         mymap.addControl(search);
 
-        // GPX-Datei einbinden
-        var gpx = 'e10-3.gpx'; // URL zur GPX-Datei
-        new L.GPX(gpx, {
-            async: true,
-            marker_options: {
-                startIconUrl: 'https://www.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png',
-                endIconUrl: 'https://www.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png',
-                shadowUrl: ''
-            }
-        }).on('loaded', function(e) {
-            mymap.fitBounds(e.target.getBounds());
-        }).addTo(mymap);
+        // Popup 2024-05-17-1
+        var content_202405171 = `
+            <div class="popup-content">
+                <video controls>
+                    <source src="./2024-05-17-1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Aufbruch</h3>
+                <div class="date">17.05.2024</div>
+                <div class="scrollable-text">
+            <p>So ihr lieben Freunde,</p>
+            <p>Hier könnt ihr mich nun auf euren Handys eine Weile beim Wandern begleiten - hoffentlich den ganzen Weg von Berlin bis runter ans Meer!</p>
+            <p>Wie oft, wie genau und wie ehrlich ich hier posten werde, weiß ich noch nicht. Aber aber es macht ja nur Spaß, wenn es immer Mal ein bisschen deftig zugeht, gell. Und wahrscheinlich kommen auch viele Videos.</p>
+            <p>Jetzt zu den Fakten: Heute um die Mittagsstunde bin ich der Silbersteinstraße in Richtung Südosten aufgebrochen.</p>
+            <p>Soweit läuft es sich herrlich. Obwohl ich derzeit noch, im Zustand höchster Sensibilität, jedem kleinsten Wehwehchen in den Gelenken nachspüre, kann ich soweit von keinem Schmerz berichten!</p>
+            <!-- Füge hier mehr Text hinzu -->
+        </div>
+            </div>
+        `;
+
+        var marker_202405171 = L.marker([52.46650, 13.43371]).addTo(mymap).bindPopup(content_202405171).closePopup();
+
+        // Popup 2024-05-17-2
+        var content_202405172 = `
+            <div class="popup-content">
+                <video controls>
+                    <source src="./2024-05-17-2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Der erste Schlafplatz</h3>
+                <div class="date">17.05.2024</div>
+                <div class="scrollable-text">
+            <p>Bisher bin ich noch weiterstehend in bekanntestem Terrain gelaufen. Damit ist es dann aber morgen vorbei. Heute schlage ich mein Zelt am Ufer der Dahme knapp südlich von Wildau auf. Kurz werde ich noch versuchen die Mückenflut mit dem Geruch von Zigaretten und Bier zu vertreiben. Wenn mir das nicht gelingt, mich aber bald hinter das schützende Netz verziehen.</p>
+            <p>Auf eine ruhige erste Nacht!</p>
+            <!-- Füge hier mehr Text hinzu -->
+        </div>
+            </div>
+        `;
+
+        var marker_202405172 = L.marker([52.314917, 13.644611]).addTo(mymap).bindPopup(content_202405172).closePopup();
     </script>
 </body>
 </html>
