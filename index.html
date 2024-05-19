@@ -60,20 +60,17 @@
     <script src="https://unpkg.com/leaflet-geosearch/dist/bundle.min.js"></script>
     
     <script>
-        var mymap = L.map('map').setView([52.314917, 13.644611], 10);
+        var mymap = L.map('map').setView([52.314917, 13.644611], 16);
 
         var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
             maxZoom: 19
         }).addTo(mymap);
-    
-        var wmsLayer = L.tileLayer.wms("https://www.wms.nrw.de/geobasis/wms_nw_dop", {
-            layers: 'nw_dop_rgb',
-            format: 'image/png',
-            transparent: true,
-            version: '1.3.0',
-            attribution: "Datenquelle: <a href='https://open.nrw/' target='_blank'>Geobasis NRW</a> (<a href='https://www.govdata.de/dl-de/zero-2-0' target='_blank'>DL-DE->Zero-2.0</a>)",
-            maxZoom: 19
+
+        var googleSatLayer = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            maxZoom: 19,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            attribution: "Datenquelle: &copy; <a href='https://www.google.com/maps' target='_blank'>Google Maps</a>"
         });
     
         var geojsonFeature = {
@@ -102,7 +99,7 @@
 
         var baseMaps = {
             "OpenStreetMap": openStreetMapLayer,
-            "Luftbilder": wmsLayer
+            "Luftbilder": googleSatLayer
         };
 
         L.control.layers(baseMaps).addTo(mymap);
