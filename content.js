@@ -1,3 +1,33 @@
+// Popup 2024-05-20
+var content_20240520 = `
+<div class="popup-content">
+    <img src="./media/2024-05-20.jpg" alt="Foto" class="popup-image">
+    <h3>Schlafplatz</h3>
+    <div class="date">20.05.2024</div>
+    <div class="scrollable-text">
+<p>Zelt hinter der Bushaltestelle im Dorf. Ich hoffe dass zählt dann nicht mehr als Naturschutzgebiet :)</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_20240520 = L.marker([51.855985, 14.047505]).addTo(mymap).bindPopup(content_20240520).closePopup();
+
+// Popup 2024-05-19-2
+var content_202405192 = `
+<div class="popup-content">
+    <img src="./media/2024-05-19-2.jpg" alt="Foto" class="popup-image">
+    <h3>Schlafplatz</h3>
+    <div class="date">19.05.2024</div>
+    <div class="scrollable-text">
+<p>extrem viele Mücken aber schöne Aussicht</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_202405192 = L.marker([52.014028, 13.885306]).addTo(mymap).bindPopup(content_202405192).closePopup();
+
 // Popup 2024-05-19
 var content_20240519 = `
 <div class="popup-content">
@@ -28,21 +58,6 @@ var content_20240519 = `
 `;
 
 var marker_20240519 = L.marker([52.05175, 13.855472]).addTo(mymap).bindPopup(content_20240519).closePopup();
-
-// Popup 2024-05-19-2
-var content_202405192 = `
-<div class="popup-content">
-    <img src="./media/2024-05-19-2.jpg" alt="Foto" class="popup-image">
-    <h3>Schlafplatz</h3>
-    <div class="date">19.05.2024</div>
-    <div class="scrollable-text">
-<p>extrem viele Mücken aber schöne Aussicht</p>
-<!-- Füge hier mehr Text hinzu -->
-</div>
-</div>
-`;
-
-var marker_202405192 = L.marker([52.014028, 13.885306]).addTo(mymap).bindPopup(content_202405192).closePopup();
 
 // Popup 2024-05-18
 var content_20240518 = `
