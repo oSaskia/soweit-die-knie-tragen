@@ -1,3 +1,31 @@
+// Popup 2024-05-21
+var content_20240521 = `
+<div class="popup-content">
+    <video controls>
+        <source src="./media/2024-05-21.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h3>Schlafplatz</h3>
+    <div class="date">21.05.2024</div>
+    <div class="scrollable-text">
+<p>Hallo aus Papitz!</p>
+<p>So nun liegt der Spreewald hinter mir. In den letzten zwei Tagen ging es entlang der hübschen Kanäle im Wald durch die morastige Mückenhölle.</p>
+<p>Nachdem ich es am Sonntag etwas ruhiger hatte laufen lassen, rollte es Montag wieder wieder recht gut an. Nur waren die Mücken - vor denen ich am Vorabend schon um 20 Uhr im Zelt versteckt hatte - morgens auch bereits wach und warteten ganz aufgeregt hinter dem Netz. Also hab ich mit einer Hand das Lager abgebaut und mit der anderen wild um mich geschlagen. Beim Laufen ging's dann aber, denn ab einer gewissen Geschwindigkeit kommen die Mistbiester nicht mehr recht mit und man zieht nur eine kleine Wolke hinter sich her.</p>
+<p>So lief ich also zwischen malerischen Seen in Richtung Lübben. Nach gut zwei Stunden wurde ich hungrig und wollte ein kleines Frühstück einlegen. Sobald ich aber stehen blieb wurde ich von allen Seiten angegriffen, weshalb ich meine zwei Brötchen mit den Salamisticks in vollem Marsch essen musste.</p>
+<p>In Lübben hielt ich mich auch nicht lange auf, da ja die Schwesterstadt Lübbenau die Königin des Spreewaldes sein soll. Am frühen Abend kam ich dort nach flotten 28km an. Die Stadt war am Pfingstwochenende von Besuchern überlaufen. Tausende aus dem In- und Ausland waren gekommen, um sich in Känen über die Kanäle schippern zu lassen und sich mit Spreewaldgurken, Gurkenradler und Gurkeneis zu verköstigen.</p>
+<p>Auch abseits der Orte ist im Spreewald gut was los. Auf den Wander- und Radwegen, begegnet man in den allermeisten Fällen deutschen, heterosexuellen Pärchen zwischen 40 und 70. Überwiegend werden E-Bikes auf den oft schmalen Wegen gefahren, wobei der Mann immer voraus fährt und meist den Mund bei der Fahrt leicht geöffnet hat. Als wohlerzogener Wandersbub stelle ich mich dann meist auf die Seite um Platz zu machen und entrichtet einen freundlich-dezenten Wandergruß, wobei die Herren diesen meist nicht erwiedern und auch den Mund geöffnet lassen, während sie mich anstarren. Bei den Damen habe ich oft mehr Glück. Andere Wandersleute wie mich habe ich bisher auf dem E10 noch nicht getroffen.</p>
+<p>Als ich dann in Lübbenau nach einem doppelten Cheeseburger von meinen Stuhl aufstand tat mir dann leider gehörig die Verse weh. Nun war ich aber mitten im Biosphärenreservat Spreewald und ich hatte die Ahnung, dass ich dieses in Handschellen verlassen werde, würde ich hier mein Zelt aufschlagen. Deshalb dachte ich mir trotz der schmerzenden Hufe noch die 5 Kilometer bis nach Leipe zu gehen. Das ist zwar immer noch im Reservat aber nicht mehr Kernzone. Auf halber Strecke wurde es dann aber echt bös und der Schmerz zog gehörig in die Achillessehne hoch. Mit ganz kleinen Schritten kam ich aber endlich doch in dem märchenhaften Örtchen auf einer Waldesaue an und schlug mein Zelt hinter der Bushaltestelle auf, wo es nicht mehr so sehr nach Biosphärenreservat aussah. Und man ließ mich gewähren.</p>
+<p>Nachdem ich mir beim Einschlafen noch um meine achillische Schwachstelle sorgte, machte ich heute morgen ein paar ängstliche Gehversuche. Und siehe da es tut bisschen weh aber es geht. 🦶 Um den Erfolg nicht zu gefährden habe ich das Tempo dann den Tag über etwas gedrosselt und bin langsam aber stetig aus dem Naturschutzgebiet hinausgelaufen. Bei einer längeren Rast in Burg könnte ich mich mit Bandagen und Nüssen eindecken und sitze nun nach 20km Tagesetappe auf dem komplett mückenfreien Dorfplatz von Papitz.</p>
+<p>Mein Physiotherapeut und Mental-Coach macht mir Hoffnung, dass es mit den Hacken bald besser wird, wenn ich es nicht übertreibe und regelmäßig Pausen einlege.</p>
+<p>Morgen soll es denn ganzen Tag regnen. Deshalb werde ich wohl versuchen zackig ins 12km entfernte Cottbus vorzustoßen und mir dort ein Zimmer nehmen. Es ist höchste Zeit einmal meine Merionounterwäsche zu waschen und mir nochmal genau zu überlegen, was von dem ganzen Kram den ich mitschleppe, ich wieder nach Berlin zurückschicken kann. Ich glaube mit Proviant wiegt mein Tornister nun doch um die 18/19 kg. Das ist zu viel für die Versen.</p>
+<p>Heute Abend freue mich wieder meine Heringe in den ungeschützten Boden außerhalb des Bioreservats zu rammen, und somit auf ruhigen Schlaf, ohne den Förster fürchten zu müssen.</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_20240521 = L.marker([51.78031, 14.217758],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240521).closePopup();
+
 // Popup 2024-05-20
 var content_20240520 = `
 <div class="popup-content">
