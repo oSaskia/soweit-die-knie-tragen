@@ -11,7 +11,7 @@ var content_20240520 = `
 </div>
 `;
 
-var marker_20240520 = L.marker([51.855985, 14.047505]).addTo(mymap).bindPopup(content_20240520).closePopup();
+var marker_20240520 = L.marker([51.855985, 14.047505],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240520).closePopup();
 
 // Popup 2024-05-19-2
 var content_202405192 = `
@@ -26,7 +26,7 @@ var content_202405192 = `
 </div>
 `;
 
-var marker_202405192 = L.marker([52.014028, 13.885306]).addTo(mymap).bindPopup(content_202405192).closePopup();
+var marker_202405192 = L.marker([52.014028, 13.885306],{icon: orangeIcon}).addTo(mymap).bindPopup(content_202405192).closePopup();
 
 // Popup 2024-05-19
 var content_20240519 = `
@@ -72,7 +72,7 @@ var content_20240518 = `
 </div>
 `;
 
-var marker_20240518 = L.marker([52.112028, 13.762333]).addTo(mymap).bindPopup(content_20240518).closePopup();
+var marker_20240518 = L.marker([52.112028, 13.762333],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240518).closePopup();
 
 // Popup 2024-05-17-2
 var content_202405172 = `
@@ -91,7 +91,7 @@ var content_202405172 = `
 </div>
 `;
 
-var marker_202405172 = L.marker([52.314917, 13.644611]).addTo(mymap).bindPopup(content_202405172).closePopup();
+var marker_202405172 = L.marker([52.314917, 13.644611],{icon: orangeIcon}).addTo(mymap).bindPopup(content_202405172).closePopup();
 
 // Popup 2024-05-17-1
 var content_202405171 = `
