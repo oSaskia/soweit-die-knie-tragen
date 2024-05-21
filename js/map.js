@@ -16,6 +16,16 @@
             "Luftbilder": googleSatLayer
         };
 
+        var orangeIcon = L.icon({
+            iconUrl: './js/marker-icon-orange.png',
+            iconSize: [25, 41], // Größe des Icons
+            iconAnchor: [13, 42], // Punkt, der dem Marker auf der Karte entspricht
+            popupAnchor: [2, -35], // Punkt, von dem aus der Popup ausgeht
+            shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png', // Standard-Shadow von Leaflet
+            shadowSize: [41, 41], // Größe des Schattens
+            shadowAnchor: [13, 41] // Punkt, der dem Schatten auf der Karte entspricht
+        });
+
         L.control.layers(baseMaps).addTo(mymap);
 
         L.control.scale({
