@@ -1,4 +1,4 @@
-        var mymap = L.map('map').setView([51.749226, 14.325446], 10);
+        var mymap = L.map('map').setView([51.78031, 14.217758], 10);
 
         var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
