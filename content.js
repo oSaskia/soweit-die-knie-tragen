@@ -1,3 +1,18 @@
+// Popup 2024-05-23
+var content_20240523 = `
+<div class="popup-content">
+    <img src="./media/2024-05-23.jpg" alt="Foto" class="popup-image">
+    <h3>Schlafplatz</h3>
+    <div class="date">23.05.2024</div>
+    <div class="scrollable-text">
+<p>Schöner Platz am Stausee umzingelt von Angelsachsen. 🎣</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_20240523 = L.marker([51.636726,14.399749],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240523).closePopup();
+
 // Popup 2024-05-22
 var content_20240522 = `
 <div class="popup-content">
