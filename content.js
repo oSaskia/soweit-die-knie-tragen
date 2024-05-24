@@ -17,7 +17,7 @@ var marker_202405241 = L.marker([51.589042,14.527552]).addTo(mymap).bindPopup(co
 // Popup 2024-05-23
 var content_20240523 = `
 <div class="popup-content">
-    <img src="./media/2024-05-23.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
+    <img src="./media/2024-05-24-1.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">23.05.2024</div>
     <div class="scrollable-text">
