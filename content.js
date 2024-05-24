@@ -17,7 +17,7 @@ var marker_202405241 = L.marker([51.589042,14.527552]).addTo(mymap).bindPopup(co
 // Popup 2024-05-23
 var content_20240523 = `
 <div class="popup-content">
-    <img src="./media/2024-05-23.jpg" alt="Foto" class="popup-image">
+    <img src="./media/2024-05-23.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">23.05.2024</div>
     <div class="scrollable-text">
@@ -32,7 +32,7 @@ var marker_20240523 = L.marker([51.636726,14.399749],{icon: orangeIcon}).addTo(m
 // Popup 2024-05-22
 var content_20240522 = `
 <div class="popup-content">
-    <img src="./media/2024-05-22-1.jpg" alt="Foto" class="popup-image">
+    <img src="./media/2024-05-22-1.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">22.05.2024</div>
     <div class="scrollable-text">
@@ -75,7 +75,7 @@ var marker_20240521 = L.marker([51.78031, 14.217758],{icon: orangeIcon}).addTo(m
 // Popup 2024-05-20
 var content_20240520 = `
 <div class="popup-content">
-    <img src="./media/2024-05-20.jpg" alt="Foto" class="popup-image">
+    <img src="./media/2024-05-20.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">20.05.2024</div>
     <div class="scrollable-text">
@@ -90,7 +90,7 @@ var marker_20240520 = L.marker([51.855985, 14.047505],{icon: orangeIcon}).addTo(
 // Popup 2024-05-19-2
 var content_202405192 = `
 <div class="popup-content">
-    <img src="./media/2024-05-19-2.jpg" alt="Foto" class="popup-image">
+    <img src="./media/2024-05-19-2.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">19.05.2024</div>
     <div class="scrollable-text">
@@ -136,7 +136,7 @@ var marker_20240519 = L.marker([52.05175, 13.855472]).addTo(mymap).bindPopup(con
 // Popup 2024-05-18
 var content_20240518 = `
 <div class="popup-content">
-    <img src="./media/2024-05-18.jpg" alt="Foto" class="popup-image">
+    <img src="./media/2024-05-18.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">18.05.2024</div>
     <div class="scrollable-text">
