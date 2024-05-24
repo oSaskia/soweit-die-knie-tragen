@@ -1,7 +1,7 @@
 // Popup 2024-05-24-1
 var content_202405241 = `
 <div class="popup-content">
-    <img src="./media/2024-05-24-1.jpg" alt="Foto" class="popup-image onclick="openFullscreen(this)"">
+    <img src="./media/2024-05-24-1.jpg" alt="Foto" class="popup-image onclick="openFullscreen(this)">
     <h3>Reuthen</h3>
     <div class="date">24.05.2024</div>
     <div class="scrollable-text">
