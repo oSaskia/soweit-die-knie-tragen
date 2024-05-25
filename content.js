@@ -1,5 +1,5 @@
 // Popup 2024-05-24
-var content_20240521 = `
+var content_20240524 = `
 <div class="popup-content">
     <video controls>
         <source src="./media/2024-05-24.mp4" type="video/mp4">
