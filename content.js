@@ -1,3 +1,28 @@
+// Popup 2024-05-24
+var content_20240521 = `
+<div class="popup-content">
+    <video controls>
+        <source src="./media/2024-05-24.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h3>Schlafplatz</h3>
+    <div class="date">24.+25.05.2024</div>
+    <div class="scrollable-text">
+<p>Moin Moin vom Campingplatz!</p>
+<p>Die heutigen Grüße sende ich bereits aus Sachsen, dessen Grenze ich vor wenigen Stunden unbehelligt überschritten habe. Aber ich greife vor.</p>
+<p>Mittwoch: Nach einer kurzen Etappe von 12km erreichte ich Cottbus und quartierte mich zentral am Hauptbahnhof im Radisson ein. Dort habe ich, meinen Plan folgend, meine Unterhosen im Waschbecken gewaschen, mir drei Dosen Bier besorgt, einen Joint geraucht und erstmal ein paar Stunden nackt Fernsehen geschaut. Das Zimmer habe ich nur zwei Mal verlassen, um mir etwas hochkalorische Nahrung zu besorgen. (Ein BigMac Menü und einmal Com Rang mit Tofu)</p>
+<p>Nachdem ich mir am nächsten Tag noch geschickt das Frühstücksbuffet erschlichen hatte (nicht im Preis von 89€ inbegriffen?!), hab ich meine Sachen gepackt und das Hotel nach 18 wunderbaren Stunden wieder verlassen. Gut erholt ging es dann 21km meist entlang der Spree weiter nach Süden zur Talsperre Spremberg. Zwischen zwei schweigsamen Anglern, die meinen wohl etwas zu freundlichen Gruß nicht erwidert hatten, schlug ich mein Zelt in der Abenddämmerung auf.</p>
+<p>Zum Einschlafen gab's das Hitradio aus der Makita-Akku-Box der Nachbarn und mein Cosy-Head-Space-Hörbuch, 'Harry Potter und der Stein der Weisen', gelesen von Rufus Beck.  Erwacht bin ich dann, wie die Vögelchen um 6 und weiter ging's.</p>
+<p>Freitag Mittag, etwa auf der Brandburg-Sächsischen Grenze, war ich dann auch genau eine Woche unterwegs, was ein kleines erstes Zwischenfazit erlaubt: Es ist schön aber schmerzhaft. Hatte ich in meiner Vorbereitung die größte Sorge um meine Knie sind es jetzt doch meine Füße die Probleme machen. Und hier besonders der linke. Ganz genau die linke Ferse. Eine gewisse Linderung haben jetzt Gelkeile für die Hacken aus dem Sanitätshaus gebracht (danke für den Tipp Mutti!) die aber wiederum das Gewicht auf den Vorderfuß verlagern. Es fühlt sich an als würde ich auf sehr wackeligen High Heels laufen und nach einer Weile tun mir dann die Fußballen weh. Immer wieder wechsel ich zwischen meinen Beinen Schuhpaaren hin und her, aber es ist doch ein konstantes Schmerz-Managent. Mein Physiotherapeut sagt aber, das sei bei der "Intensität und Dauer der Belastung normal" und ich solle nicht "zu gesundheitsbewusst" an die Sache rangehen.</p>
+<p>Gleichzeitig folge ich seinem Rat und werde jetzt nochmal eine kleine Pause machen. Dafür hab ich's mir hier schön im Neptuncamp am Halbendorfer See gemütlich gemacht und bleibe bis Sonntag. Um mich voll auf die noch ungewohnte Atmosphäre des sächsischen Campingplatzes einlassen zu können und weil Wochenende ist, plane ich nach dem Frühstück morgen 20 microgramm 1P-LSD einzunehmen. (Keine Sorge Mutti das ist nur ganz wenig! 👼)</p>
+<p>Bis bald!</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_20240524 = L.marker([51.5390784,14.666261],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240524).closePopup();
+
 // Popup 2024-05-24-1
 var content_202405241 = `
 <div class="popup-content">
