@@ -54,22 +54,6 @@ var content_20240524 = `
 
 var marker_20240524 = L.marker([51.5458537,14.5685364],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240524).closePopup();
 
-// Popup 2024-05-24-1
-var content_202405241 = `
-<div class="popup-content">
-    <img src="./media/2024-05-24-1.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
-    <h3>Reuthen</h3>
-    <div class="date">24.05.2024</div>
-    <div class="scrollable-text">
-<p>Die Kirchenruine</p>
-<!-- Füge hier mehr Text hinzu -->
-</div>
-</div>
-`;
-
-var marker_202405241 = L.marker([51.589042,14.527552]).addTo(mymap).bindPopup(content_202405241).closePopup();
-
-
 // Popup 2024-05-23
 var content_20240523 = `
 <div class="popup-content">
