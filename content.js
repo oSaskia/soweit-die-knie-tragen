@@ -1,3 +1,18 @@
+// Popup 2024-05-26
+var content_20240526 = `
+<div class="popup-content">
+    <img src="./media/2024-05-26.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
+    <h3>Schlafplatz</h3>
+    <div class="date">26.05.2024</div>
+    <div class="scrollable-text">
+<p>Sehr dünn besiedelt hier. Camp am Ufer der Neise. Auf der anderen Seite ist Polen.</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>                       
+`;
+
+var marker_20240526 = L.marker([51.5056130, 14.8223580],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240526).closePopup();
+
 // Popup 2024-05-25
 var content_20240525 = `
 <div class="popup-content">
