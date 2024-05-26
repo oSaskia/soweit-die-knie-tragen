@@ -1,5 +1,5 @@
 // Popup 2024-05-25
-var content_202405241 = `
+var content_20240525 = `
 <div class="popup-content">
     <img src="./media/2024-05-25.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Besuch</h3>
