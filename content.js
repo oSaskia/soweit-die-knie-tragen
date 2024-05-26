@@ -1,3 +1,19 @@
+// Popup 2024-05-25
+var content_202405241 = `
+<div class="popup-content">
+    <img src="./media/2024-05-25.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
+    <h3>Besuch</h3>
+    <div class="date">25.05.2024</div>
+    <div class="scrollable-text">
+<p>Endlich wieder Würzfleisch</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_20240525 = L.marker([51.589042,14.527552]).addTo(mymap).bindPopup(content_20240525).closePopup();
+
+
 // Popup 2024-05-24
 var content_20240524 = `
 <div class="popup-content">
