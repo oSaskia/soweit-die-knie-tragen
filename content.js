@@ -11,6 +11,8 @@ var content_20240527 = `
 </div>                       
 `;
 
+var marker_20240527 = L.marker([51.3862120, 14.8233750],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240527).closePopup();
+
 // Popup 2024-05-26
 var content_20240526 = `
 <div class="popup-content">
