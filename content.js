@@ -1,3 +1,16 @@
+// Popup 2024-05-27
+var content_20240527 = `
+<div class="popup-content">
+    <img src="./media/2024-05-27.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
+    <h3>Schlafplatz</h3>
+    <div class="date">27.05.2024</div>
+    <div class="scrollable-text">
+<p>Schöner Fischteich</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>                       
+`;
+
 // Popup 2024-05-26
 var content_20240526 = `
 <div class="popup-content">
