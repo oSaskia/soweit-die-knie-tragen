@@ -1,3 +1,44 @@
+// Popup 2024-05-28
+var content_20240528 = `
+<div class="popup-content">
+    <video controls>
+        <source src="./media/2024-05-28.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h3>Schlafplatz</h3>
+    <div class="date">28.05.2024</div>
+    <div class="scrollable-text">
+<p>Hi!</p>
+<p>Ich sitze hier am Poetenteich in Ullersdorf und es regnet noch ein bisschen, so wie es schon den ganzen Tag ein bisschen geregnet hat. Hier unten 20 km westlich von Görlitz, also sozusagen im Osten des Ostens, habe ich nach 10 Tagen im platten Land endlich zum ersten Mal einen kleinen Berg am Horizont gesehen. Noch nicht das Erzgebirge, sondern den Löbauer Berg, eine sogenannte Vulkanruine.</p>
+<p>Hierher bin durch die seenreiche Lausitz gekommen von der ich jetzt Mal ein bisschen erzähle:</p>
+<p>Vom Campingplatz ging's nach Bad Muskau, Grenz- und Pücklerstadt, und von dort an der Neiße entlang nach Südosten. Vom Gefühl her, dass bislang am dünsten besiedelte Gebiet. Zumindest auf der deutschen Seite. Für ein bisschen Wurst, Käse und Brot husche ich hier zwei Mal über den Fluss nach Polen. Mein hier legales Kiffgras lasse ich im Gebüsch auf der deutschen Seite der Brücke. Man will die europäischen Nachbarn ja nicht provozieren.</p>
+<p>Am Fluss schwirren stetig Pferdebremsen. Zähe, gepanzerte Biester, die, wenn man sie voll mit der Handfläche erwischt einfach wieder losfliegen und nach ein paar Sekunden wieder an der gleichen Stelle sitzen und es noch einmal versuchen. Nach einer Weile merke ich der Trick ist, sie kräftig auf der Haut zu zerreiben.</p>
+<p>Auf etwa 15 Kilometer geht der Weg durch einen schmalen Korridor. Links fließt ruhig und braun der Grenzfluss. Rechts am Waldrand steht der Zaun des Truppenübungsplatzes 'Oberlausitz' auf dem früher die NVA geballert hat und heute die Bundeswehr ballert. Schon morgens früh hört man den Manöverbetrieb. Mal rattert eine scharfe Salve aus dem Wald heraus, dann erklingt ein dumpfer, großkalibriger Schuss. Dazwischen grollen Motoren, wohl von den Panzern.</p>
+<p>Aus dem Wikipedia Artikel: <br>"Seit 1996 wurden immer wieder einzelne Wölfe gesichtet, die über die Lausitzer Neiße aus Polen kamen. Etwa 1998 hat sich ein Pärchen auf dem weiträumigen Gelände niedergelassen. Da sie dort relativ ruhig leben können, hat sich die Population der einzigen freilebenden Wölfe Deutschlands in den folgenden Jahren stetig erhöht, so dass etwa um das Jahr 2005 ein zweites Rudel auszumachen war. Ein großer Teil der heute in Deutschland lebenden Wölfe lässt sich auf zwei weibliche Individuen zurückführen, die Töchter FT1 „Sunny“ und FT3 „Einauge“ des ersten Rudels von diesem Truppenübungsplatz."</p>
+<p>Entlang des schmalen Korridors zwischen Polen und dem verboten Wald reihen sich eine Handvoll kleine Siedlungen meist aus zwei, drei aneinander gedrängten Bauernhöfen. (Kann man auf der angepinnten Karte ganz gut sehen.) An machen stellen ist der Streifen nur knapp 200 Meter breit.</p>
+<p>In der Abenddämmerung grüße ich einen Mann über den Gartenzaun. Der schreit leise auf. Nach kurzem Schreck lachen wir beide ein bisschen. "Es kommen hier so selten Leute vorbei, da erschrickt man sich direkt."</p>
+<p>In den kleinen Dörfchen stehen die Mahnmale für verlorenen Söhne von 1871, aus dem Ersten und Zweiten Weltkrieg. Ein Grabhügel ehrt die wendischen Könige, die im Mittelalter in Kriegen gegen die Polen gestorben sind. Dazu knallt es dumpf aus Wald.</p>
+<p>Auf einer Flutmauer am Dorfrand von Skerbersdorf sitzen zwei Männer beim Flaschenbier. Wo ich den hinwolle. Ach ja Italien, soll schön sein, hier Junge nehm ein Bier. Wir schwatzen ein bisschen über den Wolf und das Wetter. Und wo ich den her komme? Berlin.</p>
+<p>Der Name der deutschen Hauptstadt scheint im Inneren der Männer etwas zu lösen und zu mobilisieren. Man wolle ja jetzt wirklich nicht über Politik reden. Und dann reden sie über Politik.</p>
+<p>Die Regierung sind alles arbeitsscheue Vollidioten. Bismarck, das war noch ein richtiger Kanzler. Die Zeitungen hetzen gemein gegen den Krah - einen ehrlicher Mann, der die Wahrheit sagt - und die AfD ja sowieso. Der Russe will den Frieden. Frauen trauen sich nachts nicht mehr auf die Straße, wegen den Flüchtlingen. Ein Best-Off der Facebook-Kommentarspalten. Wie auswendig gelernt.</p>
+<p>Da drüben, man zeigt auf den Grenzfluss hinter dem in 50 Metern Polen beginnt, da könne man noch stolz sein ein Pole zu sein. Hier sei es ja mittlerweile verboten sein Vaterland zu lieben. "Die lachen uns doch mittlerweile nur noch aus." Fast meint man ein entferntes polnisches Lachen am anderen Ufer zu hören.</p>
+<p>Unterm Strich: nicht jeder in SS-Uniform war ein Verbrecher, aber jeder Moslem ist ein Triebtäter oder zumindest Islamist.</p>
+<p>Ich will mir ja Mühe geben, den Leuten hier nicht allzu voreingenommen gegenüber zu treten. Will die Menschen nicht durch meine arroganten Wessi-Augen sehen. Aber, wenn gleich die ersten zwei jeden Punkt im Faschismus-Bingo abhaken, ist es echt nicht leicht.</p>
+<p>Im Gespräch halte ich meistens meine Klappe. Widerspreche Mal halblaut oder streue eine kleine Anekdote aus meinem berliner Multi-Kulti-Leben ein. Die ganzen schlauen Sachen, die ich den Männern hatte antworten können, fallen mir leider jetzt erst in den Tagen danach ein. Bei der nächsten Diskussion nehme ich mir vor mehr in die Offensive zu gehen.</p>
+<p>Und das kann ich mir wahrscheinlich sogar erlauben. Als weißen Mann mit bürgerlich-bäuerlicher Sozialisation werde ich hier zumindest nicht von vorneherein gehasst und kann mich recht sicher fühlen und agieren. Für Menschen die diese Privilegien nicht haben, ist es hier sicher kein so sorgloser Wohlfühlort.</p>
+<p>Um das nun nicht so stehen zu lassen: Es sind ja wirklich nicht alle so. Immerhin wählte zuletzt ja "nur" jeder vierte hier die scheiß AfD. </p>
+<p>Überall trifft man freundliche, herzliche, aufgeschlossene Menschen, die scheinen, als würden sie verzweifelt versuchen gegen den Ruf der Region anzulächeln. Eine Bäckerin fragt mich, ob wo ich den schlafe, ob ich da keine Angst hätte. Ich sage nein, der Wolf sei scheu und die Leute ja sehr nett. Sie: "In der Zeitung steht aber was anderes."</p>
+<p>Und so beliebt und oft leicht das Sachsen-Bashing auch ist. Es hängen unübersehbar in vielen Dörfern die Reichsflaggen in den gut gepflegten Gärten und kleben die verwitterten Nazi-Sticker an den Straßenlampen, die offensichtlich keiner abreißt.</p>
+<p>Aber dazwischen trifft man dann den netten Zittauer Ökologie-Studenten auf der Bieberpirsch, den gesprächigen alten Cottbuser Eisenbahner, dessen Kinder im Westen leben und kaum noch zu Besuch kommen oder die ältere Dame die mir Videos vom Mülltonnenrennen im Dorf aus dem WhatsApp-Verlauf mit ihren Enkelkindern raussucht.</p>
+<p>In Daubitz werde ich am Montagabend in die alte Dorfschenke reingewunken. Die Kneipe hat seit zehn Jahren zu, aber ein junger Mann hat am Wochenende geheiratet und versucht mit fünf Senioren auf der Eckbank noch die angebrochenen Fässer leer zu machen, bevor das Pfand zurück geht. Unter drei Bier komme ich nicht weg und muss den angebotenen Zeltplatz im Garten fünf Mal ablehnen.</p>
+<p>Also schön ist es hier an vielen Stellen. Nett und romantisch, wenn die Sonne durch die alten Eichenwälder scheint und die Katzen sich vor den hübsch renoviert Backsteinbauernhöfen räkeln. Aber es liegt etwas in der Luft, ein wenig Misstrauen und viel Wut im Hintergrund. Man sieht es nicht, aber kann es spüren. Ein bisschen, wie das düstere Grollen von Panzern und Kanonen im Wald.</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>
+`;
+
+var marker_20240528 = L.marker([51.239457,14.7901742],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240528).closePopup();
+
 // Popup 2024-05-27
 var content_20240527 = `
 <div class="popup-content">
@@ -42,7 +83,6 @@ var content_20240525 = `
 `;
 
 var marker_20240525 = L.marker([51.5438299,14.5286259]).addTo(mymap).bindPopup(content_20240525).closePopup();
-
 
 // Popup 2024-05-24
 var content_20240524 = `
