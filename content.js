@@ -37,7 +37,7 @@ var content_20240528 = `
 </div>
 `;
 
-var marker_20240528 = L.marker([51.239457,14.7901742],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240528).closePopup();
+var marker_20240528 = L.marker([51.2408178, 14.8203153],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240528).closePopup();
 
 // Popup 2024-05-27
 var content_20240527 = `
