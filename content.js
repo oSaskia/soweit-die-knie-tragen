@@ -11,7 +11,7 @@ var content_20240529 = `
 </div>                       
 `;
 
-var marker_20240529 = L.marker([51.0897904,14.6926595],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240527).closePopup();
+var marker_20240529 = L.marker([51.0897904,14.6926595],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240529).closePopup();
 
 // Popup 2024-05-28
 var content_20240528 = `
