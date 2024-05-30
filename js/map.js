@@ -16,6 +16,26 @@
             "Luftbilder": googleSatLayer
         };
 
+        var layer_route = new L.geoJson(json_e10tracks_1, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'route',
+            layerName: 'route',
+            style: function() {
+                return {
+                    opacity: 1,
+                    color: 'rgba(190,84,45,1.0)',
+                    dashArray: '',
+                    lineCap: 'square',
+                    lineJoin: 'bevel',
+                    weight: 2.0,
+                    fillOpacity: 0,
+                    interactive: false,
+                };
+            }
+        });
+        mymap.addLayer(layer_route);
+
         var orangeIcon = L.icon({
             iconUrl: './js/marker-icon-orange.png',
             iconSize: [25, 41], // Größe des Icons
