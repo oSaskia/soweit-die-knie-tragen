@@ -35,7 +35,7 @@ function getStyle(zoom) {
     if (zoom >= 14) {
         return {
             opacity: 1,
-            color: 'rgba(190,84,45,1.0)', // Rote Farbe
+            color: 'rgba(190,45,45,1.0)', // Rote Farbe
             dashArray: '5, 12', // Muster für größere Punkte: 0 Pixel Linie (Punkt), 20 Pixel Lücke
             lineCap: 'round', // Enden der Linie sind rund, um Punkte zu erzeugen
             lineJoin: 'round', // Ecken der Linie sind rund
@@ -46,7 +46,7 @@ function getStyle(zoom) {
     } else {
         return {
             opacity: 1,
-            color: 'rgba(190,84,45,1.0)', // Rote Farbe
+            color: 'rgba(190,45,45,1.0)', // Rote Farbe
             dashArray: '0, 0', // Muster für kleinere Punkte: 0 Pixel Linie (Punkt), 10 Pixel Lücke
             lineCap: 'round', // Enden der Linie sind rund, um Punkte zu erzeugen
             lineJoin: 'round', // Ecken der Linie sind rund
