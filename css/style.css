@@ -23,6 +23,7 @@ html, body {
     display: none; /* Versteckt die Scrollbalken in Webkit-Browsern (z.B. Chrome, Safari) */
 }
 .popup-content video {
+    height: 100%; /* Feste Höhe für das Video-Element */
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
