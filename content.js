@@ -7,7 +7,7 @@ Your browser does not support the video tag.
 </video>
     <h3>Schlafplatz</h3>
     <div class="date">30.05 - 02.06.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Ahoj aus Rumburk,</p>
 <p>Seit gestern bin in Tschechien, gerade im Bett meiner kleinen Pension kapp hinter der Grenze. Angesichts des Wetterberichts habe ich in den letzten Tagen nochmal ordentlich auf die Wandertube gedrückt und die erste Bergetappe hinter mich gebracht, um vor dem großen Regen hier her zu kommen. In unserem Nachbarland kann man nämlich schon für 29€ pro Nacht fürstlichen logieren und sich für 10€ ordentlich satt essen. (Fassbier gibt's ab 1,50€!!)</p>
 <p>Unter diesen himmlischen Umständen werde ich dann wohl noch zwei weitere Nächte hier ausharren, bis sich die Füße etwas abgekühlt  und die Wolken wieder verzogen haben. Dann wird auch schon Prag anvisiert, das noch etwa 100km entfernt ist. Heute Abend geht's aber erstmal in die Dorfdisko auf ein paar Wodka-Bull.</p>
@@ -25,7 +25,7 @@ var content_20240529 = `
     <img src="./media/2024-05-29.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">29.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Kleines Zimmer mit Balkon und im Bad eine Zecke an Popo entdeckt.</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -43,7 +43,7 @@ var content_20240528 = `
     </video>
     <h3>Schlafplatz</h3>
     <div class="date">28.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Hi!</p>
 <p>Ich sitze hier am Poetenteich in Ullersdorf und es regnet noch ein bisschen, so wie es schon den ganzen Tag ein bisschen geregnet hat. Hier unten 20 km westlich von Görlitz, also sozusagen im Osten des Ostens, habe ich nach 10 Tagen im platten Land endlich zum ersten Mal einen kleinen Berg am Horizont gesehen. Noch nicht das Erzgebirge, sondern den Löbauer Berg, eine sogenannte Vulkanruine.</p>
 <p>Hierher bin durch die seenreiche Lausitz gekommen von der ich jetzt Mal ein bisschen erzähle:</p>
@@ -81,7 +81,7 @@ var content_20240527 = `
     <img src="./media/2024-05-27.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">27.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Schöner Fischteich</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -96,7 +96,7 @@ var content_20240526 = `
     <img src="./media/2024-05-26.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">26.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Sehr dünn besiedelt hier. Camp am Ufer der Neise. Auf der anderen Seite ist Polen.</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -111,7 +111,7 @@ var content_20240525 = `
     <img src="./media/2024-05-25.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Besuch</h3>
     <div class="date">25.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Endlich wieder Würzfleisch</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -129,7 +129,7 @@ var content_20240524 = `
     </video>
     <h3>Schlafplatz</h3>
     <div class="date">24.+25.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Moin Moin vom Campingplatz!</p>
 <p>Die heutigen Grüße sende ich bereits aus Sachsen, dessen Grenze ich vor wenigen Stunden unbehelligt überschritten habe. Aber ich greife vor.</p>
 <p>Mittwoch: Nach einer kurzen Etappe von 12km erreichte ich Cottbus und quartierte mich zentral am Hauptbahnhof im Radisson ein. Dort habe ich, meinen Plan folgend, meine Unterhosen im Waschbecken gewaschen, mir drei Dosen Bier besorgt, einen Joint geraucht und erstmal ein paar Stunden nackt Fernsehen geschaut. Das Zimmer habe ich nur zwei Mal verlassen, um mir etwas hochkalorische Nahrung zu besorgen. (Ein BigMac Menü und einmal Com Rang mit Tofu)</p>
@@ -151,7 +151,7 @@ var content_20240523 = `
     <img src="./media/2024-05-23.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">23.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Schöner Platz am Stausee umzingelt von Angelsachsen. 🎣</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -166,7 +166,7 @@ var content_20240522 = `
     <img src="./media/2024-05-22-1.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">22.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Besser!</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -184,7 +184,7 @@ var content_20240521 = `
     </video>
     <h3>Schlafplatz</h3>
     <div class="date">21.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Hallo aus Papitz!</p>
 <p>So nun liegt der Spreewald hinter mir. In den letzten zwei Tagen ging es entlang der hübschen Kanäle im Wald durch die morastige Mückenhölle.</p>
 <p>Nachdem ich es am Sonntag etwas ruhiger hatte laufen lassen, rollte es Montag wieder wieder recht gut an. Nur waren die Mücken - vor denen ich am Vorabend schon um 20 Uhr im Zelt versteckt hatte - morgens auch bereits wach und warteten ganz aufgeregt hinter dem Netz. Also hab ich mit einer Hand das Lager abgebaut und mit der anderen wild um mich geschlagen. Beim Laufen ging's dann aber, denn ab einer gewissen Geschwindigkeit kommen die Mistbiester nicht mehr recht mit und man zieht nur eine kleine Wolke hinter sich her.</p>
@@ -209,7 +209,7 @@ var content_20240520 = `
     <img src="./media/2024-05-20.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">20.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Zelt hinter der Bushaltestelle im Dorf. Ich hoffe dass zählt dann nicht mehr als Naturschutzgebiet :)</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -224,7 +224,7 @@ var content_202405192 = `
     <img src="./media/2024-05-19-2.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">19.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>extrem viele Mücken aber schöne Aussicht</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -242,7 +242,7 @@ var content_20240519 = `
     </video>
     <h3>Spreewald</h3>
     <div class="date">19.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Grüßt euch!</p>
 <p>Mittlerweile liegt der dritte Wandertag bereits hinter mir. Nachdem ich es am Freitag nach etwa 25 Kilometer zumindest schon Mal über die Berliner Stadtgrenze geschafft hatte stand dann gestern eine größere Etappe an. Da mich die Brandenburger Sonne und die Flugzeuge des BER bereits um 6 Uhr morgens wachgeküsst hatten ging's eine halbe Stunde später direkt los. Erstmal lange entlang des Bahndamms des RE2 südlich Richtung Cottbus.</p>
 <p>Kurz vor Bestensee bekam ich dann das große Zittern. Und das bekam ich - weniger aus Angst vor dem langen Weg der noch vor mir liegt - sondern eher aus Unterzuckerung. Vielleicht beidem. Immerhin war ich nach einem üppigen Frühstück bis in den Nachmittag hineingelaufen und hatte dabei wohl zu wenig gegessen. Eine Nudelpfanne mit Cola haben das aber zügig wieder gerichtet.</p>
@@ -270,7 +270,7 @@ var content_20240518 = `
     <img src="./media/2024-05-18.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
     <h3>Schlafplatz</h3>
     <div class="date">18.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Biwakplatz mit Dusche</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
@@ -288,7 +288,7 @@ var content_202405172 = `
     </video>
     <h3>Der erste Schlafplatz</h3>
     <div class="date">17.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>Bisher bin ich noch weiterstehend in bekanntestem Terrain gelaufen. Damit ist es dann aber morgen vorbei. Heute schlage ich mein Zelt am Ufer der Dahme knapp südlich von Wildau auf. Kurz werde ich noch versuchen die Mückenflut mit dem Geruch von Zigaretten und Bier zu vertreiben. Wenn mir das nicht gelingt, mich aber bald hinter das schützende Netz verziehen.</p>
 <p>Auf eine ruhige erste Nacht!</p>
 <!-- Füge hier mehr Text hinzu -->
@@ -307,7 +307,7 @@ var content_202405171 = `
     </video>
     <h3>Aufbruch</h3>
     <div class="date">17.05.2024</div>
-    <div class="scrollable-text">
+    <div class="text-container">
 <p>So ihr lieben Freunde,</p>
 <p>Hier könnt ihr mich nun auf euren Handys eine Weile beim Wandern begleiten - hoffentlich den ganzen Weg von Berlin bis runter ans Meer!</p>
 <p>Wie oft, wie genau und wie ehrlich ich hier posten werde, weiß ich noch nicht. Aber aber es macht ja nur Spaß, wenn es immer Mal ein bisschen deftig zugeht, gell. Und wahrscheinlich kommen auch viele Videos.</p>

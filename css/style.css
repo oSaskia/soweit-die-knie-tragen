@@ -8,21 +8,31 @@ html, body {
     height: 100%;
 }
 .popup-content {
+    overflow: hidden; /* Versteckt die Standard-Scrollbalken */
+    overflow-y: scroll; /* Ermöglicht vertikales Scrollen */
+    max-height: 490px; /* Setzt die maximale Höhe des Inhalts */
+    -ms-overflow-style: none; /* Versteckt die Scrollbalken in Internet Explorer und Edge */
+    scrollbar-width: none; /* Versteckt die Scrollbalken in Firefox */
     text-align: center;
     max-width: 210px;
-    min-width: 210px;
     font-family: Arial, sans-serif;
     padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+.popup-content::-webkit-scrollbar {
+    display: none; /* Versteckt die Scrollbalken in Webkit-Browsern (z.B. Chrome, Safari) */
 }
 .popup-content video {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Fügt einen Schatten hinzu */
 }
 .popup-image {
     width: 100%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Fügt einen Schatten hinzu */
 }
 .popup-content h3 {
     font-weight: bold;
@@ -34,27 +44,15 @@ html, body {
     color: #777;
     margin-bottom: 10px;
 }
-.popup-content .scrollable-text {
-    max-height: 100px;
-    overflow-y: auto;
-    text-align: left;
-    padding: 5px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
-}
-.popup-content p {
-    margin: 0 0 10px;
+.popup-content .text-container {
+    background-color: #f9f9f9; /* Hintergrundfarbe für den Rahmen */
+    padding: 5px 10px; /* Reduziert den Innenabstand oben und unten */
+    border: 1px solid #ddd; /* Rahmen um den Text */
+    border-radius: 5px; /* Optionale abgerundete Ecken */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12); /* Innere Schatten für den Text */
     line-height: 1.4;
+    text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
+.popup-content .text-container p {
+    margin: 5px 0; /* Reduziert den Abstand zwischen den Absätzen */
+}
