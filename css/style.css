@@ -14,7 +14,7 @@ html, body {
     -ms-overflow-style: none; /* Versteckt die Scrollbalken in Internet Explorer und Edge */
     scrollbar-width: none; /* Versteckt die Scrollbalken in Firefox */
     text-align: center;
-    max-width: 210px;
+    width: 210px;
     font-family: Arial, sans-serif;
     padding: 10px;
     box-sizing: border-box; /* Ensures padding is included in width */
@@ -47,6 +47,7 @@ html, body {
 .popup-content .text-container {
     background-color: #f9f9f9; /* Hintergrundfarbe für den Rahmen */
     padding: 5px 10px; /* Reduziert den Innenabstand oben und unten */
+
     border: 1px solid #ddd; /* Rahmen um den Text */
     border-radius: 5px; /* Optionale abgerundete Ecken */
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.12); /* Innere Schatten für den Text */
