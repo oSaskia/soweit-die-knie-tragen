@@ -1,17 +1,23 @@
-// Popup 2024-05-30
-var content_20240530 = `
+// Popup 2024-05-31
+var content_20240531 = `
 <div class="popup-content">
-    <img src="./media/2024-05-30.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
+<video controls>
+<source src="./media/2024-05-31.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
     <h3>Schlafplatz</h3>
-    <div class="date">30.05 - 01.06.2024</div>
+    <div class="date">30.05 - 02.06.2024</div>
     <div class="scrollable-text">
-<p>Schönes Hotel für 2/3 Tage.</p>
+<p>Ahoj aus Rumburk,</p>
+<p>Seit gestern bin in Tschechien, gerade im Bett meiner kleinen Pension kapp hinter der Grenze. Angesichts des Wetterberichts habe ich in den letzten Tagen nochmal ordentlich auf die Wandertube gedrückt und die erste Bergetappe hinter mich gebracht, um vor dem großen Regen hier her zu kommen. In unserem Nachbarland kann man nämlich schon für 29€ pro Nacht fürstlichen logieren und sich für 10€ ordentlich satt essen. (Fassbier gibt's ab 1,50€!!)</p>
+<p>Unter diesen himmlischen Umständen werde ich dann wohl noch zwei weitere Nächte hier ausharren, bis sich die Füße etwas abgekühlt  und die Wolken wieder verzogen haben. Dann wird auch schon Prag anvisiert, das noch etwa 100km entfernt ist. Heute Abend geht's aber erstmal in die Dorfdisko auf ein paar Wodka-Bull.</p>
+<p>Heute also nur ein kurzer Text dafür aber ein längeres Video mit den Bildern der letzten Woche.</p>
 <!-- Füge hier mehr Text hinzu -->
 </div>
 </div>                       
 `;
 
-var marker_20240530 = L.marker([50.9555981,14.5500692],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240530).closePopup();
+var marker_20240531 = L.marker([50.9555981,14.5500692],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240531).closePopup();
 
 // Popup 2024-05-29
 var content_20240529 = `
