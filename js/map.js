@@ -1,19 +1,19 @@
 var mymap = L.map('map').setView([51.0897904,14.6926595], 10);
 
 var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
+    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
     maxZoom: 19
 }).addTo(mymap);
 
 var openTopoMapLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    attribution: "Datenquelle: &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors, <a href='https://opentopomap.org' target='_blank'>OpenTopoMap</a> (CC-BY-SA)",
-    maxZoom: 19
+    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors, &copy; <a href='https://opentopomap.org' target='_blank'>OpenTopoMap</a> (CC-BY-SA)",
+    maxZoom: 17
 });
 
 var googleSatLayer = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
     maxZoom: 19,
     subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-    attribution: "Datenquelle: &copy; <a href='https://www.google.com/maps' target='_blank'>Google Maps</a>"
+    attribution: "&copy; <a href='https://www.google.com/maps' target='_blank'>Google Maps</a>"
 });
 
 var baseMaps = {
