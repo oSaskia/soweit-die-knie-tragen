@@ -17,7 +17,7 @@ html, body {
     width: 210px;
     font-family: Arial, sans-serif;
     padding: 0px;
-    padding-top: 5px;
+    padding-top: 4px;
     box-sizing: border-box; /* Ensures padding is included in width */
 }
 .popup-content::-webkit-scrollbar {
@@ -26,7 +26,6 @@ html, body {
 .popup-content video {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Fügt einen Schatten hinzu */
 }
 .popup-image {
@@ -37,7 +36,7 @@ html, body {
 }
 .popup-content h3 {
     font-weight: bold;
-    margin: 10px 0;
+    margin: 5px 0;
     color: #333;
 }
 .popup-content .date {
