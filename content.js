@@ -1,3 +1,18 @@
+// Popup 2024-06-02
+var content_20240602 = `
+<div class="popup-content">
+    <img src="./media/2024-06-02.jpg" alt="Foto" class="popup-image" onclick="openFullscreen(this)">
+    <h3>Schlafplatz</h3>
+    <div class="date">02.06.2024</div>
+    <div class="text-container">
+<p>Zeltplatz am Hunde-Trainingsplatz nach einer anstrengenden Bergetappe.</p>
+<!-- Füge hier mehr Text hinzu -->
+</div>
+</div>                       
+`;
+
+var marker_20240602 = L.marker([50.747513, 14.572202],{icon: orangeIcon}).addTo(mymap).bindPopup(content_20240602).closePopup();
+
 // Popup 2024-05-31
 var content_20240531 = `
 <div class="popup-content">
