@@ -56,3 +56,29 @@ html, body {
 .popup-content .text-container p {
     margin: 5px 0; /* Reduziert den Abstand zwischen den Absätzen */
 }
+.links-container {
+    margin-top: 10px;
+    text-align: center;
+}
+.link-button {
+    background-color: hsl(46, 66%, 64%); /* Hellgraue Hintergrundfarbe */
+    color: #576775 !important; /* Dunkelgraue Schriftfarbe */
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px; /* Abgerundete Ecken auf allen Seiten */
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Stellt sicher, dass das Padding in der Breite enthalten ist */
+}
+.link-button:hover {
+    background-color: hsl(0, 0%, 70%); /* Etwas dunkleres Hellgrau beim Hover */
+}
+
+
+
+

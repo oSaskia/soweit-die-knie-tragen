@@ -1,4 +1,15 @@
-var mymap = L.map('map').setView([50.9555981,14.5500692], 10);
+// Standard-Koordinaten für den Fall, dass kein Marker als center definiert ist
+let centerCoordinates = [51.0897904, 14.6926595];
+
+// Überprüfen, ob ein Marker als center definiert ist
+for (const markerData of markersData) {
+    if (markerData["map-center"]) {
+        centerCoordinates = markerData.coordinates.split(',').map(Number);
+        break;
+    }
+}
+
+var mymap = L.map('map').setView(centerCoordinates, 10);
 
 var openStreetMapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: "&copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a> contributors",
@@ -63,6 +74,16 @@ mymap.on('zoomend', function() {
 
 var orangeIcon = L.icon({
     iconUrl: './js/marker-icon-orange.png',
+    iconSize: [25, 41], // Größe des Icons
+    iconAnchor: [13, 42], // Punkt, der dem Marker auf der Karte entspricht
+    popupAnchor: [2, -35], // Punkt, von dem aus der Popup ausgeht
+    shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png', // Standard-Shadow von Leaflet
+    shadowSize: [41, 41], // Größe des Schattens
+    shadowAnchor: [13, 41] // Punkt, der dem Schatten auf der Karte entspricht
+});
+
+var blueIcon = L.icon({
+    iconUrl: './js/marker-icon-blue.png', // Pfad zu Ihrem blauen Marker-Icon
     iconSize: [25, 41], // Größe des Icons
     iconAnchor: [13, 42], // Punkt, der dem Marker auf der Karte entspricht
     popupAnchor: [2, -35], // Punkt, von dem aus der Popup ausgeht
