@@ -156,7 +156,7 @@ const markersData = [
         mediaType: "video",
         mediaSrc: "./media/2024-05-31.mp4",
         description: "Ahoj aus Rumburk, |||Seit gestern bin in Tschechien, gerade im Bett meiner kleinen Pension kapp hinter der Grenze. Angesichts des Wetterberichts habe ich in den letzten Tagen nochmal ordentlich auf die Wandertube gedrückt und die erste Bergetappe hinter mich gebracht, um vor dem großen Regen hier her zu kommen. In unserem Nachbarland kann man nämlich schon für 29€ pro Nacht fürstlichen logieren und sich für 10€ ordentlich satt essen. (Fassbier gibt's ab 1,50€!!) |||Unter diesen himmlischen Umständen werde ich dann wohl noch zwei weitere Nächte hier ausharren, bis sich die Füße etwas abgekühlt und die Wolken wieder verzogen haben. Dann wird auch schon Prag anvisiert, das noch etwa 100km entfernt ist. Heute Abend geht's aber erstmal in die Dorfdisko auf ein paar Wodka-Bull.|||Heute also nur ein kurzer Text dafür aber ein längeres Video mit den Bildern der letzten Woche.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "orange"
     },
     {
@@ -166,8 +166,18 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-02.jpg",
         description: "Zeltplatz am Hunde-Trainingsplatz nach einer anstrengenden Bergetappe.",
-        "map-center": false,
+        "map-center": true,
         "markerType": "orange"
     },
+	{
+        coordinates: "50.556638, 14.672292",
+        date: "03.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-03.jpg",
+        description: "Schön im Wald. Mit kleinen, beißenden Fliegen, die sich in den Haaren festsetzen.",
+        "map-center": false,
+        "markerType": "orange"
+    }
     // Weitere Marker hier hinzufügen
 ];
