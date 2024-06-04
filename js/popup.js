@@ -28,8 +28,10 @@ class MarkerContent {
                 <div class="text-container">${descriptionHTML}</div>
                 <div class="links-container">
                     <a href="https://www.google.com/maps?q=${this.lat},${this.lng}" target="_blank" class="link-button">Google Maps</a>
-                    <a href="https://en.wikipedia.org/wiki/Special:Nearby#/coord/${this.lat},${this.lng}" target="_blank" class="link-button">Wiki Nearby (EN)</a>
-                    <a href="https://de.wikipedia.org/wiki/Spezial:In_der_N%C3%A4he#/coord/${this.lat},${this.lng}" target="_blank" class="link-button">Wiki Nearby (DE)</a>
+                    <div class="wiki-buttons">
+                        <a href="https://en.wikipedia.org/wiki/Special:Nearby#/coord/${this.lat},${this.lng}" target="_blank" class="link-button half-width">Wiki (EN)</a>
+                        <a href="https://de.wikipedia.org/wiki/Spezial:In_der_N%C3%A4he#/coord/${this.lat},${this.lng}" target="_blank" class="link-button half-width">Wiki (DE)</a>
+                    </div>
                 </div>
             </div>
         `;
