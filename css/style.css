@@ -20,6 +20,13 @@ html, body {
     padding-top: 4px;
     box-sizing: border-box; /* Ensures padding is included in width */
 }
+
+/* Medienabfrage für kleinere Bildschirme */
+@media (max-width: 600px) {
+    .popup-content {
+        max-height: 408px; /* Setzt die maximale Höhe des Inhalts für kleinere Bildschirme */
+    }
+}
 .popup-content::-webkit-scrollbar {
     display: none; /* Versteckt die Scrollbalken in Webkit-Browsern (z.B. Chrome, Safari) */
 }
