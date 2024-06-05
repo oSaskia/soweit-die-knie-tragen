@@ -10,7 +10,7 @@ html, body {
 .popup-content {
     overflow: hidden; /* Versteckt die Standard-Scrollbalken */
     overflow-y: scroll; /* Ermöglicht vertikales Scrollen */
-    max-height: 528px; /* Setzt die maximale Höhe des Inhalts */
+    max-height: 544px; /* Setzt die maximale Höhe des Inhalts */
     -ms-overflow-style: none; /* Versteckt die Scrollbalken in Internet Explorer und Edge */
     scrollbar-width: none; /* Versteckt die Scrollbalken in Firefox */
     text-align: center;

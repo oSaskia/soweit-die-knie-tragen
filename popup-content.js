@@ -166,7 +166,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-02.jpg",
         description: "Zeltplatz am Hunde-Trainingsplatz nach einer anstrengenden Bergetappe.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "orange"
     },
 	{
@@ -176,6 +176,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-03.jpg",
         description: "Schön im Wald. Mit kleinen, beißenden Fliegen, die sich in den Haaren festsetzen.",
+        "map-center": true,
+        "markerType": "orange"
+    },
+    {
+        coordinates: "50.350831, 14.468368",
+        date: "04.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-04.jpg",
+        description: "Schön gelegen an der Elbe das Zelt unterhalb von Melnik im Dunkeln aufbaut.",
         "map-center": false,
         "markerType": "orange"
     }
