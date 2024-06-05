@@ -22,7 +22,7 @@ html, body {
 }
 
 /* Medienabfrage für kleinere Bildschirme */
-@media (max-width: 700px) {
+@media (max-width: 300px) {
     .popup-content {
         max-height: 408px; /* Setzt die maximale Höhe des Inhalts für kleinere Bildschirme */
     }
