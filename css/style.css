@@ -22,7 +22,7 @@ html, body {
 }
 
 /* Medienabfrage für kleinere Bildschirme */
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .popup-content {
         max-height: 408px; /* Setzt die maximale Höhe des Inhalts für kleinere Bildschirme */
     }
@@ -105,7 +105,6 @@ html, body {
     justify-content: space-between; /* Gleichmäßige Verteilung der Buttons */
     margin-top: 5px; /* Etwas Abstand nach oben */
 }
-
 
 
 
