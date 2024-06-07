@@ -3,69 +3,74 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 #map {
     width: 100%;
     height: 100%;
 }
+
 .popup-content {
-    overflow: hidden; /* Versteckt die Standard-Scrollbalken */
-    overflow-y: scroll; /* Ermöglicht vertikales Scrollen */
-    max-height: 544px; /* Setzt die maximale Höhe des Inhalts */
-    -ms-overflow-style: none; /* Versteckt die Scrollbalken in Internet Explorer und Edge */
-    scrollbar-width: none; /* Versteckt die Scrollbalken in Firefox */
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 544px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     text-align: center;
     width: 210px;
     font-family: Arial, sans-serif;
     padding: 0px;
     padding-top: 4px;
-    box-sizing: border-box; /* Ensures padding is included in width */
+    box-sizing: border-box;
 }
 
-/* Medienabfrage für kleinere Bildschirme */
+/* Media query for smaller screens */
 @media (max-width: 330px) {
     .popup-content {
-        max-height: 408px; /* Setzt die maximale Höhe des Inhalts für kleinere Bildschirme */
+        max-height: 408px;
     }
 }
+
 .popup-content::-webkit-scrollbar {
-    display: none; /* Versteckt die Scrollbalken in Webkit-Browsern (z.B. Chrome, Safari) */
+    display: none;
 }
-.popup-content video {
+
+.popup-content video, .popup-image {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Fügt einen Schatten hinzu */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
-.popup-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Fügt einen Schatten hinzu */
-}
+
 .popup-content h3 {
     font-weight: bold;
     margin: 5px 0;
     color: #333;
+    text-align: center; /* Ensure the title is centered */
 }
+
 .popup-content .date {
     font-size: 0.9em;
     color: #777;
     margin-bottom: 10px;
+    text-align: center; /* Ensure the date is centered */
 }
+
 .popup-content .text-container {
-    background-color: #f9f9f9; /* Hintergrundfarbe für den Rahmen */
-    padding: 5px 10px; /* Reduziert den Innenabstand oben und unten */
-    border: 1px solid #ddd; /* Rahmen um den Text */
-    border-radius: 5px; /* Optionale abgerundete Ecken */
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12); /* Innere Schatten für den Text */
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
     line-height: 1.4;
     text-align: left;
 }
+
 .popup-content .text-container p {
-    margin: 5px 0; /* Reduziert den Abstand zwischen den Absätzen */
+    margin: 5px 0;
 }
+
 .link-button {
-    background-color: hsl(46, 66%, 64%); /* Hellgraue Hintergrundfarbe */
-    color: #576775 !important; /* Dunkelgraue Schriftfarbe */
+    background-color: hsl(46, 66%, 64%);
+    color: #576775 !important;
     border: none;
     padding: 10px;
     text-align: center;
@@ -73,26 +78,26 @@ html, body {
     display: block;
     font-size: 14px;
     cursor: pointer;
-    border-radius: 5px; /* Abgerundete Ecken auf allen Seiten */
+    border-radius: 5px;
     margin-bottom: 5px;
     width: 100%;
-    box-sizing: border-box; /* Stellt sicher, dass das Padding in der Breite enthalten ist */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); /* Leichter Schatten */
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 .link-button.half-width {
-    width: 49%; /* Halbe Breite */
-    margin-right: 2%; /* Minimaler Abstand zwischen den Buttons */
-    border-radius: 5px 0 0 5px; /* Nur linke Seite abgerundet */
+    width: 49%;
+    margin-right: 2%;
+    border-radius: 5px 0 0 5px;
 }
 
 .link-button.half-width:last-of-type {
-    margin-right: 0; /* Entfernt den rechten Rand des letzten Buttons */
-    border-radius: 0 5px 5px 0; /* Nur rechte Seite abgerundet */
+    margin-right: 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .link-button:hover {
-    background-color: hsl(0, 0%, 70%); /* Etwas dunkleres Hellgrau beim Hover */
+    background-color: hsl(0, 0%, 70%);
 }
 
 .links-container {
@@ -102,12 +107,6 @@ html, body {
 
 .wiki-buttons {
     display: flex;
-    justify-content: space-between; /* Gleichmäßige Verteilung der Buttons */
-    margin-top: 5px; /* Etwas Abstand nach oben */
+    justify-content: space-between;
+    margin-top: 5px;
 }
-
-
-
-
-
-

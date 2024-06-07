@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Soweit die Knie tragen</title>
-    </head>
-    <body>
-        <div id="map"></div>
-        
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch/dist/geosearch.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Soweit die Knie tragen</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch/dist/geosearch.css" />
 
-        <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div id="map"></div>
 
-
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="https://unpkg.com/leaflet-geosearch/dist/bundle.min.js"></script>
-
-        <script src="./data/routenroute_1.js"></script>
-
-        <script src="./popup-content.js"></script>
-        <script src="./js/map.js"></script>
-        <script src="./js/popup.js"></script>
-    </body>
+    <!-- Leaflet library -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Leaflet GeoSearch library -->
+    <script src="https://unpkg.com/leaflet-geosearch/dist/bundle.min.js"></script>
+    
+    <!-- Route data -->
+    <script src="./data/routenroute_1.js"></script>
+    <!-- Marker data -->
+    <script src="./popup-content.js"></script>
+    <!-- Map functionality -->
+    <script src="./js/map.js"></script>
+    <!-- Popup functionality -->
+    <script src="./js/popup.js"></script>
+</body>
 </html>
