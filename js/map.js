@@ -154,7 +154,7 @@ function toggleWikipediaMarkers(lat, lng, lang = 'en') {
     }
 
     // Fetch and add Wikipedia markers if no markers are present
-    fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lng}&gsradius=10000&gslimit=50&format=json&origin=*`)
+    fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lng}&gsradius=10000&gslimit=10000&format=json&origin=*`)
         .then(response => response.json())
         .then(data => {
             data.query.geosearch.forEach(article => {
