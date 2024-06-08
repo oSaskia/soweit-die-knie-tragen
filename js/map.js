@@ -143,7 +143,7 @@ function openFullscreen(element) {
 }
 
 // Store Wikipedia markers to enable toggling
-let wikipediaMarkers = L.markerClusterGroup({ disableClusteringAtZoom: 14 });
+let wikipediaMarkers = L.markerClusterGroup({ disableClusteringAtZoom: 15 });
 
 // Function to add or remove Wikipedia markers on the map
 function toggleWikipediaMarkers(lat, lng, lang = 'en') {
