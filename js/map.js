@@ -143,17 +143,14 @@ function openFullscreen(element) {
 }
 
 // Store Wikipedia markers to enable toggling
-let wikipediaMarkers = [];
+let wikipediaMarkers = L.markerClusterGroup({ disableClusteringAtZoom: 14 });
 
 // Function to add or remove Wikipedia markers on the map
 function toggleWikipediaMarkers(lat, lng, lang = 'en') {
     // Remove existing markers if they are present
-    if (wikipediaMarkers.length > 0) {
-        wikipediaMarkers.forEach(marker => mymap.removeLayer(marker));
-        wikipediaMarkers = [];
-    }
+    wikipediaMarkers.clearLayers();
 
-    // Fetch and add Wikipedia markers if no markers are present
+    // Fetch and add Wikipedia markers
     fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lng}&gsradius=10000&gslimit=10000&format=json&origin=*`)
         .then(response => response.json())
         .then(data => {
@@ -165,7 +162,7 @@ function toggleWikipediaMarkers(lat, lng, lang = 'en') {
                         const page = Object.values(pages)[0];
                         const imageUrl = page.thumbnail ? page.thumbnail.source : '';
                         const readMoreText = lang === 'en' ? 'Read more' : 'Mehr lesen';
-                        const marker = L.marker([article.lat, article.lon], { icon: yellowIcon }).addTo(mymap);
+                        const marker = L.marker([article.lat, article.lon], { icon: yellowIcon });
                         marker.bindPopup(`
                             <div class="popup-content">
                                 ${imageUrl ? `<img src="${imageUrl}" alt="${article.title}" class="popup-image" onclick="openFullscreen(this)">` : ''}
@@ -176,10 +173,13 @@ function toggleWikipediaMarkers(lat, lng, lang = 'en') {
                                 </div>
                             </div>
                         `);
-                        wikipediaMarkers.push(marker);
+                        wikipediaMarkers.addLayer(marker);
                     })
                     .catch(error => console.error('Error fetching Wikipedia article details:', error));
             });
         })
         .catch(error => console.error('Error fetching Wikipedia articles:', error));
 }
+
+// Add the Wikipedia markers layer to the map
+mymap.addLayer(wikipediaMarkers);
