@@ -155,7 +155,7 @@ function toggleWikipediaMarkers(lat, lng, lang = 'en') {
         .then(response => response.json())
         .then(data => {
             data.query.geosearch.forEach(article => {
-                fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&prop=extracts|pageimages&exintro&explaintext&piprop=thumbnail&pithumbsize=300&titles=${article.title}&format=json&origin=*`)
+                fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&prop=extracts|pageimages&exintro&explaintext&piprop=thumbnail&pithumbsize=600&titles=${article.title}&format=json&origin=*`)
                     .then(response => response.json())
                     .then(detailData => {
                         const pages = detailData.query.pages;
