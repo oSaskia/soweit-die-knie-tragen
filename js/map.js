@@ -151,7 +151,7 @@ function toggleWikipediaMarkers(lat, lng, lang = 'en') {
     wikipediaMarkers.clearLayers();
 
     // Fetch and add Wikipedia markers
-    fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lng}&gsradius=10000&gslimit=10000&format=json&origin=*`)
+    fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lng}&gsradius=10000&gslimit=500&format=json&origin=*`)
         .then(response => response.json())
         .then(data => {
             data.query.geosearch.forEach(article => {
