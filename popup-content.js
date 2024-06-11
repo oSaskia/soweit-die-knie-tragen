@@ -217,7 +217,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-09.jpg",
         description: "Schöner Schlafplatz auf einem Hügel unter einem Strommast. |||Hoffentlich gibt's kein Gewitter",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -226,7 +226,17 @@ const markersData = [
         title: "Schlafplatz",
         mediaType: "image",
         mediaSrc: "./media/2024-06-10.jpg",
-        description: "Goldener Sonnenuntergang in den Weizenfeldern",
+        description: "Goldener Sonnenuntergang in den Weizenfeldern. |||Nachts ein röhrender Hirsch (?) neben dem Zelt.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "49.458863, 14.139674",
+        date: "11.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-11.jpg",
+        description: "Zelt am Waldrand neben einer etwas gruseligen quadratischen Siedlung.",
         "map-center": false,
         "markerType": "blue"
     }
