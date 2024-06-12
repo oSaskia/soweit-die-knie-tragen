@@ -227,7 +227,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-10.jpg",
         description: "Goldener Sonnenuntergang in den Weizenfeldern. |||Nachts ein röhrender Hirsch (?) neben dem Zelt.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -237,6 +237,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-11.jpg",
         description: "Zelt am Waldrand neben einer etwas gruseligen quadratischen Siedlung.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "49.3057518, 14.1492376",
+        date: "12.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-12.jpg",
+        description: "Hübsches Hotel mit Blick auf die alte Stadtkirche",
         "map-center": false,
         "markerType": "blue"
     }
