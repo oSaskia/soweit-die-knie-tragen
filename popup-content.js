@@ -247,7 +247,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-12.jpg",
         description: "Hübsches Hotel mit Blick auf die alte Stadtkirche",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -257,6 +257,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-13.jpg",
         description: "Wieder zurück an der Moldau.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "48.9775282, 14.4799657",
+        date: "14. - 16.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-14.jpg",
+        description: "Fußball!",
         "map-center": false,
         "markerType": "blue"
     }
