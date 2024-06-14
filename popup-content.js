@@ -237,7 +237,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-11.jpg",
         description: "Zelt am Waldrand neben einer etwas gruseligen quadratischen Siedlung.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -247,6 +247,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-12.jpg",
         description: "Hübsches Hotel mit Blick auf die alte Stadtkirche",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "49.215598, 14.434167",
+        date: "13.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-13.jpg",
+        description: "Wieder zurück an der Moldau.",
         "map-center": false,
         "markerType": "blue"
     }
