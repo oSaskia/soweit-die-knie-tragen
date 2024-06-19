@@ -287,7 +287,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-17.jpg",
         description: "Die erste Nacht in Österreich",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -297,8 +297,18 @@ const markersData = [
         mediaType: "video",
         mediaSrc: "./media/2024-06-18.mp4",
         description: "Die zweite Nacht in Österreich. Das Zelt steht mitten auf dem Wanderweg. Es ist warm. |||Hatte drei Zecken.",
-        "map-center": false,
+        "map-center": true,
         "markerType": "blue"
     },
+    {
+        coordinates: "48.397372, 14.545117",
+        date: "19.06.2024",
+        title: "Bierkeller",
+        mediaType: "video",
+        mediaSrc: "./media/2024-06-19.mp4",
+        description: "Überraschung!",
+        "map-center": false,
+        "markerType": "orange"
+    }
     // Additional markers can be added here
 ];
