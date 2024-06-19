@@ -277,7 +277,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-16.jpg",
         description: "Nachtlager 20km vor der österreichischen Grenze.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -287,6 +287,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-17.jpg",
         description: "Die erste Nacht in Österreich",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "48.468121, 14.528667",
+        date: "18.06.2024",
+        title: "Schlafplatz",
+        mediaType: "video",
+        mediaSrc: "./media/2024-06-18.mp4",
+        description: "Die zweite Nacht in Österreich. Das Zelt steht mitten auf dem Wanderweg. Es ist warm. |||Hatte drei Zecken.",
         "map-center": false,
         "markerType": "blue"
     },
