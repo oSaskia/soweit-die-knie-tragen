@@ -297,7 +297,7 @@ const markersData = [
         mediaType: "video",
         mediaSrc: "./media/2024-06-18.mp4",
         description: "Die zweite Nacht in Österreich. Das Zelt steht mitten auf dem Wanderweg. Es ist warm. |||Hatte drei Zecken.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -317,6 +317,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-19_2.jpg",
         description: "Spätes Lager erst im Dunkeln gefunden.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "48.08569, 14.751226",
+        date: "20.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-20.jpg",
+        description: "19:15 - Zelt auf dem Berg. Bin zwar kein Meteorologe, aber für mich sieht das wie Gewitter aus. |||19:28 - ja sieht gar nicht gut aus. Richtig viele Blitze am Horizont. Ich bau mal ab und renn runter ins Dorf",
         "map-center": false,
         "markerType": "blue"
     }
