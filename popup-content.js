@@ -309,6 +309,16 @@ const markersData = [
         description: "Überraschung!",
         "map-center": false,
         "markerType": "orange"
+    },
+    {
+        coordinates: "48.2625, 14.582088",
+        date: "19.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-19_2.jpg",
+        description: "Spätes Lager erst im Dunkeln gefunden.",
+        "map-center": false,
+        "markerType": "blue"
     }
     // Additional markers can be added here
 ];
