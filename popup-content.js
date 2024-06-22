@@ -317,7 +317,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-19_2.jpg",
         description: "Spätes Lager erst im Dunkeln gefunden.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -327,6 +327,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-20.jpg",
         description: "19:15 - Zelt auf dem Berg. Bin zwar kein Meteorologe, aber für mich sieht das wie Gewitter aus. |||19:28 - ja sieht gar nicht gut aus. Richtig viele Blitze am Horizont. Ich bau mal ab und renn runter ins Dorf",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "47.9544289, 14.7670866",
+        date: "21. - 23.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-21.jpg",
+        description: "Zwei Nächte verbringe ich in der Pension Stocker. Mit Blick auf den Endgegner.",
         "map-center": false,
         "markerType": "blue"
     }
