@@ -366,7 +366,7 @@ const markersData = [
         title: "Schlafplatz",
         mediaType: "image",
         mediaSrc: "./media/2024-06-25.jpg",
-        description: "(kein Text geliefert...)",
+        description: "Bis in die Dämmerung gelaufen um noch von der Kaiserau herunter zu kommen. Habe eine Bäuerin gefragt ob ich auf ihrer Wiese zelten darf. Durfte ich nicht. Auf der nächsten Wiese habe ich dann nicht mehr gefragt.",
         "map-center": false,
         "markerType": "blue"
     }
