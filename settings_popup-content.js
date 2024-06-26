@@ -363,7 +363,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-24.jpg",
         description: "Zelt in einer Schlucht am Fluss zwischen zwei Tausendern aufgestellt",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -373,6 +373,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-25.jpg",
         description: "Bis in die Dämmerung gelaufen um noch von der Kaiserau herunter zu kommen. Habe eine Bäuerin gefragt ob ich auf ihrer Wiese zelten darf. Durfte ich nicht. Auf der nächsten Wiese habe ich dann nicht mehr gefragt.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "47.279393, 14.48356",
+        date: "26.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-26.jpg",
+        description: "Nach vielen Kilometern an der Autostraße entlang ein gemütliches Plätzchen gefunden.",
         "map-center": false,
         "markerType": "blue"
     }
