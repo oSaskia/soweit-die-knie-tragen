@@ -347,7 +347,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-23.jpg",
         description: "Erste Nacht in den Alpen überlebt.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -357,6 +357,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-24.jpg",
         description: "Zelt in einer Schlucht am Fluss zwischen zwei Tausendern aufgestellt",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "47.500027, 14.483811",
+        date: "25.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-25.jpg",
+        description: "(kein Text geliefert...)",
         "map-center": false,
         "markerType": "blue"
     }
