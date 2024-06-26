@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Soweit die Knie tragen</title>
-    
+    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch/dist/geosearch.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
-
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- Cascade Buttons CSS -->
+    <link rel="stylesheet" href="./style/L.cascadeButtons.css" />
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="map"></div>
-
-    <!-- Leaflet library -->
+    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <!-- Leaflet GeoSearch library -->
     <script src="https://unpkg.com/leaflet-geosearch/dist/bundle.min.js"></script>
-    
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-    
+    <script src="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.js"></script>
+    <!-- Settings + Marker data -->
+    <script src="./settings_popup-content.js"></script>
     <!-- Route data -->
     <script src="./data/routenroute_1.js"></script>
-    <!-- Marker data -->
-    <script src="./popup-content.js"></script>
-    <!-- Map functionality -->
-    <script src="./js/map.js"></script>
-    <!-- Popup functionality -->
-    <script src="./js/popup.js"></script>
+    <!-- Cascade Buttons JS -->
+    <script src="./script/L.cascadeButtons.js"></script>
+    <!-- Custom JS -->
+    <script src="./script/map.js"></script>
 </body>
 </html>

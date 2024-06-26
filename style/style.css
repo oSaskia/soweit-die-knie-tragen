@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-content {
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 500px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-align: center;
+    width: 210px;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 330px) {
+    .popup-content {
+        max-height: 400px;
+    }
+}
+
+.popup-content::-webkit-scrollbar {
+    display: none;
+}
+
+.popup-content video, .popup-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.popup-content h3 {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+    text-align: center; /* Ensure the title is centered */
+}
+
+.popup-content .date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+    text-align: center; /* Ensure the date is centered */
+}
+
+.popup-content .text-container {
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
+    line-height: 1.4;
+    text-align: left;
+}
+
+.popup-content .text-container p {
+    margin: 5px 0;
+}
+
+.link-button {
+    background-color: hsl(46, 66%, 64%);
+    color: #576775 !important;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.link-button:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.links-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
