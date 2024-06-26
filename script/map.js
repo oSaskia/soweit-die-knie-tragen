@@ -126,13 +126,7 @@ const readMoreTranslations = {
     en: "Read more",
     de: "Mehr lesen",
     es: "Leer más",
-    fr: "Lire la suite",
-    ru: "Читать далее",
-    it: "Leggi di più",
-    ar: "اقرأ أكثر",
-    nl: "Lees meer",
-    ceb: "Basaha pa",
-    sv: "Läs mer"
+    fr: "Lire la suite"
 };
 
 // Function to add Wikipedia markers on the map
@@ -244,20 +238,6 @@ const wikiButton = new L.cascadeButtons([
             },
             {
                 icon: '', 
-                text: 'DE', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'de';
-                    setCookie("mapLanguage", 'de', 7);
-                    setCookie("wikiStatus", 'DE', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'de');
-                    console.log('Wikipedia-Sprache auf Deutsch gesetzt');
-                }
-            },
-            {
-                icon: '', 
                 text: 'EN', 
                 command: () => {
                     wikipediaEnabled = true;
@@ -268,6 +248,20 @@ const wikiButton = new L.cascadeButtons([
                     setCookie("wikiStatus", 'EN', 7);
                     loadWikipediaMarkers(mymap.getCenter(), 'en');
                     console.log('Wikipedia-Sprache auf Englisch gesetzt');
+                }
+            },
+            {
+                icon: '', 
+                text: 'DE', 
+                command: () => {
+                    wikipediaEnabled = true;
+                    wikipediaMarkers.clearLayers();
+                    loadedArticles.clear();
+                    currentLang = 'de';
+                    setCookie("mapLanguage", 'de', 7);
+                    setCookie("wikiStatus", 'DE', 7);
+                    loadWikipediaMarkers(mymap.getCenter(), 'de');
+                    console.log('Wikipedia-Sprache auf Deutsch gesetzt');
                 }
             },
             {
@@ -296,90 +290,6 @@ const wikiButton = new L.cascadeButtons([
                     setCookie("wikiStatus", 'FR', 7);
                     loadWikipediaMarkers(mymap.getCenter(), 'fr');
                     console.log('Wikipedia-Sprache auf Französisch gesetzt');
-                }
-            },
-            {
-                icon: '', 
-                text: 'RU', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'ru';
-                    setCookie("mapLanguage", 'ru', 7);
-                    setCookie("wikiStatus", 'RU', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'ru');
-                    console.log('Wikipedia-Sprache auf Russisch gesetzt');
-                }
-            },
-            {
-                icon: '', 
-                text: 'IT', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'it';
-                    setCookie("mapLanguage", 'it', 7);
-                    setCookie("wikiStatus", 'IT', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'it');
-                    console.log('Wikipedia-Sprache auf Italienisch gesetzt');
-                }
-            },
-            {
-                icon: '', 
-                text: 'AR', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'ar';
-                    setCookie("mapLanguage", 'ar', 7);
-                    setCookie("wikiStatus", 'AR', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'ar');
-                    console.log('Wikipedia-Sprache auf Ägyptisch-Arabisch gesetzt');
-                }
-            },
-            {
-                icon: '', 
-                text: 'NL', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'nl';
-                    setCookie("mapLanguage", 'nl', 7);
-                    setCookie("wikiStatus", 'NL', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'nl');
-                    console.log('Wikipedia-Sprache auf Niederländisch gesetzt');
-                }
-            },
-            {
-                icon: '', 
-                text: 'CEB', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'ceb';
-                    setCookie("mapLanguage", 'ceb', 7);
-                    setCookie("wikiStatus", 'CEB', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'ceb');
-                    console.log('Wikipedia-Sprache auf Cebuano gesetzt');
-                }
-            },
-            {
-                icon: '', 
-                text: 'SV', 
-                command: () => {
-                    wikipediaEnabled = true;
-                    wikipediaMarkers.clearLayers();
-                    loadedArticles.clear();
-                    currentLang = 'sv';
-                    setCookie("mapLanguage", 'sv', 7);
-                    setCookie("wikiStatus", 'SV', 7);
-                    loadWikipediaMarkers(mymap.getCenter(), 'sv');
-                    console.log('Wikipedia-Sprache auf Schwedisch gesetzt');
                 }
             }
         ]
