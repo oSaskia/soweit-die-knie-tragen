@@ -393,7 +393,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-27.jpg",
         description: "Regenradar sieht ungemütlich aus und ich bin noch nass vom Nachmittag. Vielleicht lege ich mich auch schön in den Warteraum und teste die Kameraüberwachung.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -403,6 +403,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-28.jpg",
         description: "Zelt auf dem Sportplatz aufgebaut. Beim Abendessen das Mückennetz aufgelassen und etwa 50 Insekten verschiedener Art drin gehabt.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "46.712361, 14.360381",
+        date: "29.06.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-06-29.jpg",
+        description: "Schöne Wiese aber viele Mücken",
         "map-center": false,
         "markerType": "blue"
     }
