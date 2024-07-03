@@ -413,7 +413,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-06-29.jpg",
         description: "Schöne Wiese aber viele Mücken",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -423,6 +423,16 @@ const markersData = [
         mediaType: "video",
         mediaSrc: "./media/2024-06-30.mp4",
         description: "Hallöchen! |||Die Alpen sind geschafft!! Also fast. Ich bin seit gestern in Klagenfurt und lege nochmal im Hostel die Füße hoch, bevor es dann über den Loiblpass nach Slovenien rüber geht. |||Meinen Angstfeind, das große Gebirge, hab ich in einem großen Schwung hinter mich gebracht. In Waidhofen hatte ich zunächst noch den Plan mich an den Eisenwurzenwanderweg zu halten. Aber schon am ersten Tag wollte der mich über die Strumpfmauer schicken, einen exponierten Gipfel, bei dessen Anblick von unten mir schon ganz schlecht wurde. Deshalb hab ich mir eine eigene Route drumherum gesucht. Den Modus habe ich dann auch den Rest der Woche beibehalten und mir weniger beängstigende und nicht so einsame Wege gesucht. |||So hab ich's in der letzten Woche ganz gut über die Pässe und Täler der Stayermark geschafft. Dabei bin ich schon auch immer Mal länger an gut befahrenen Autostraßen gelaufen. Aber die Autos und Lkw waren mit lieber als die einsamen Gipfel. Ich denke ich bin ein Wanderer und kein Bergsteiger und schon überhaupt kein Kletterer. |||An einigen Tagen war es echt brutal heiß. Dann immer wieder heftige Regengüsse aus dem Nichts. Einmal war es so dolle, dass ich innerhalb von 2 Minuten komplett nass war. Eine Hütte, die Schutz versprach, war sogar offen. Aber leider standen darin 10 brummende Bienenstöcke. |||Insgesamt stellen die frommen Götzenanbetern hier alle 500 Meter ein Kreuz, ein Schrein oder eine Kapelle für irgend einen Heiligen auf. Aber den Ausdruck christlicher Nächstenliebe in Form einer Schutzhütte sucht man vergebens. |||Als ich dann gestern hier ankam, hatte ich in einer Woche 220km zurückgelegt und wirklich Mal 7 Tage und 5 Stunden nicht geduscht. Das ist glaube ich mein persönlicher Lebensrekord. An den täglich frisch aufgetragenen Deoschichten hätte man, Baumringen gleich, die Tage ablesen können. Es überrascht mich , wie mein Zustand der Verwilderung in einer Woche zugenommen hatte. Aber auch schön, dass man in einer guten Stunde im Bad einen ganz passabeln Zustand wiederherstellen kann. |||Mittlerweile bin ich aber auch insgesamt abgehetzt wie ein altes Post Pferd. Zu den täglichen Erschöpfungszyklen kommt doch auch eine Grundmüdigkeit hinzu, die auch nach einem zwei Tagen der Ruhe nicht mehr verschwinden will. Aber zum Glück ist das Ziel ist nun nicht mehr weit. In zwei Wochen sollte es geschafft sein. Und hier Klagenfurt stehen schon die ersten Palmen! |||Die nächste Rast mache ich wohl in Ljubljana. Das Lied der Band Laibach im Video greift also schon etwas vor. |||Also liebe Grüße und drückt mir die Daumen, dass die Knochen, Sehnen und Schleimbeutel weiter so gut durchhalten! |||Ah und PS: Unser Administrator hat in die Übersichtskarte nun eine neue Funktion eingebaut. Man kann jetzt rechts an der Seite die Wikipedia-Artikel in der Umgebung zuschalten. :)",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "46.464332, 14.257313",
+        date: "02.07.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-07-02.jpg",
+        description: "Hab nach einen ebenen Schlafplatz in den Bergen an der Passstraße gesucht. Dann eine ältere Damen vor ihrem Haus angesprochen. Sie wohnt hier seit 75 Jahren. Hat mir das Gatter zur Kirche aufgeschlossen.",
         "map-center": false,
         "markerType": "blue"
     }
