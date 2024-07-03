@@ -432,7 +432,7 @@ const markersData = [
         title: "Schlafplatz",
         mediaType: "image",
         mediaSrc: "./media/2024-07-02.jpg",
-        description: "Hab nach einen ebenen Schlafplatz in den Bergen an der Passstraße gesucht. Dann eine ältere Damen vor ihrem Haus angesprochen. Sie wohnt hier seit 75 Jahren. Hat mir das Gatter zur Kirche aufgeschlossen.",
+        description: "Hab nach einem ebenen Schlafplatz in den Bergen an der Passstraße gesucht. Dann eine ältere Damen vor ihrem Haus angesprochen. Sie wohnt hier seit 75 Jahren. Hat mir das Gatter zur Kirche aufgeschlossen.",
         "map-center": false,
         "markerType": "blue"
     }
