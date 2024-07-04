@@ -447,7 +447,7 @@ const markersData = [
         "markerType": "blue"
     },
     {
-        coordinates: "46.0559735, 14.529611",
+        coordinates: "46.0478991, 14.5186581",
         date: "04. - 08.07.2024",
         title: "Schlafplatz",
         mediaType: "image",
