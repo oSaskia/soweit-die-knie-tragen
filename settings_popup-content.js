@@ -433,7 +433,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-02.jpg",
         description: "Hab nach einem ebenen Schlafplatz in den Bergen an der Passstraße gesucht. Dann eine ältere Damen vor ihrem Haus angesprochen. Sie wohnt hier seit 75 Jahren. Hat mir das Gatter zur Kirche aufgeschlossen.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -443,6 +443,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-03.jpg",
         description: "Aus den Alpen raus. Im Slowenischen Flachland. Für die nächsten 14 Stunden ist Regen angekündigt.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "46.0559735, 14.529611",
+        date: "04. - 08.07.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-07-04.jpg",
+        description: "Nochmal vier großzügige Nächte im Hostel vor der letzten Etappe.",
         "map-center": false,
         "markerType": "blue"
     }
