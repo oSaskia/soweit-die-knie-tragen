@@ -450,11 +450,21 @@ const markersData = [
         coordinates: "46.0478991, 14.5186581",
         date: "04. - 08.07.2024",
         title: "Schlafplatz",
-        mediaType: "image",
-        mediaSrc: "./media/2024-07-04.jpg",
-        description: "Nochmal vier großzügige Nächte im Hostel vor der letzten Etappe.",
+        mediaType: "video",
+        mediaSrc: "./media/2024-07-04.mp4",
+        description: "Dober dan liebe Freunde, |||Es geht dem Ende zu! Heute schreibe ich euch bereits aus meiner letzten Lagerstätte, Ljubljana. Hier hab ich's mir bereits seit Donnerstag gemütlich gemacht und Kräfte für die Schlussetappe gesammelt. |||Hierher bin ich in drei Flotten Tagen von Klagenfurt über den Loiblpass gekommen und hab damit das letzte Alpenabenteuer überstanden. Namentlich die Tscheppaschlucht bei Ferlach sei hier zu erwähnen, wo es über Gitterbrücken und beängstigend schmale Pfade entlang einer atemberaubenden Schlucht ging. Da habe versucht viel aufs Handy, statt in die Abgründe zu schauen, daher ist der Abschnitt im Video auch gut dokumentiert. |||Auf dem Weg hoch zum Loiblpass hatte ich noch eine sehr hübsche Begegnung. In der Dämmerung war ich an den steilen Hängen entlang der Passstraße auf der Suche nach einem Ebenen Flecken für mein Zelt. Ich fragte eine alte Dame vor einem der letzten Häuser auf österreichischer Seite. Sie bot mir an hinter der alten Kapelle, neben dem Friedhof zu lagern und schloss mir das Gatter auf. Die kleine ehemalige Gaststätte neben der Kirche war ihr Geburtshaus in dem sie seit 75 Jahren lebt. Mit schon deutlichem slowenischen Einschlag erzähle sie mir dann noch lange vom Leben am Pass von den Römern über Jugoslawien bis heute. |||Am nächsten Morgen ging's dannüber den Berg ins nun vierte Land meiner Reise. Slowenien ist doch sehr anders, als alles, was ich bisher aus Ex-Jugoslawien kannte. Das Land ist geleckt, sauber und ordentlich. Die Leute sind nur so mäßig freundlich. Und die Preise sind europäischer Durchschnitt. Es fühlt sich insgesamt mehr nach Österreich, als nach Balken an. |||Durchs grüne, flache Land mit dem Bergen im Rücken war's dann nicht mehr weit bis Ljubljana. |||Die allgemeine Gesundheit ist nach wie vor tip-top. Eine kleine Bindehautentzündung in der letzten Woche kam und ging wieder. Sonst tun mir, wie immer, die Füße gut weh. Aber alles nichts ernstes. |||Nun sind es noch etwa 110 Kilometer bis an die Küste. Bin mittlerweile ganz zuversichtlich, dass ich's schaffe. Die größte Herausforderung wird jetzt wohl zum Ende das Wetter: Es soll nächste Woche bis zu 35° werden. Ich versuche es jetzt nochmal mit den offiziellen Wanderwegen und starte auf dem Jakobsweg Ljubljana-Trieste. |||Tschüssi! Die nächste Nachricht kommt dann wohl schon vom Meer!! 🥹⛵️",
         "map-center": false,
         "markerType": "blue"
-    }
+    },
+    {
+        coordinates: "46.0488852,14.5083738",
+        date: "",
+        title: "Spezial-Hunde-Rückblick",
+        mediaType: "video",
+        mediaSrc: "./media/2024-07-07.mp4",
+        description: "Spezial-Hunde-Rückblick mit allen meinen 54 kleinen und großen Freunden, die ich bisher getroffen habe.",
+        "map-center": true,
+        "markerType": "orange"
+    },
     // Additional markers can be added here
 ];
