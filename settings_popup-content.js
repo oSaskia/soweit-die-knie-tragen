@@ -443,7 +443,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-03.jpg",
         description: "Aus den Alpen raus. Im Slowenischen Flachland. Für die nächsten 14 Stunden ist Regen angekündigt.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -457,7 +457,7 @@ const markersData = [
         "markerType": "blue"
     },
     {
-        coordinates: "46.0488852,14.5083738",
+        coordinates: "46.0488852, 14.5083738",
         date: "",
         title: "Spezial-Hunde-Rückblick",
         mediaType: "video",
@@ -466,5 +466,15 @@ const markersData = [
         "map-center": true,
         "markerType": "orange"
     },
+    {
+        coordinates: "45.963054, 14.272879",
+        date: "08.07.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-07-08.jpg",
+        description: "Am Wasser neben einem Dorf. Es war heute Mittag extrem heiß und ist bis jetzt immer noch sehr warm.",
+        "map-center": false,
+        "markerType": "blue"
+    }
     // Additional markers can be added here
 ];
