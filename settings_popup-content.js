@@ -463,7 +463,7 @@ const markersData = [
         mediaType: "video",
         mediaSrc: "./media/2024-07-07.mp4",
         description: "Spezial-Hunde-Rückblick mit allen meinen 54 kleinen und großen Freunden, die ich bisher getroffen habe.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "orange"
     },
     {
@@ -473,6 +473,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-08.jpg",
         description: "Am Wasser neben einem Dorf. Es war heute Mittag extrem heiß und ist bis jetzt immer noch sehr warm.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "45.807803, 14.157952",
+        date: "09.07.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-07-09.jpg",
+        description: "Hauptsache gerade! Und vielleicht keine Schnecken heute Nacht.",
         "map-center": false,
         "markerType": "blue"
     }
