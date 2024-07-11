@@ -473,7 +473,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-08.jpg",
         description: "Am Wasser neben einem Dorf. Es war heute Mittag extrem heiß und ist bis jetzt immer noch sehr warm.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -483,6 +483,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-09.jpg",
         description: "Hauptsache gerade! Und vielleicht keine Schnecken heute Nacht.",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "45.7563354, 14.0612558",
+        date: "10.07.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-07-10.jpg",
+        description: "Ein one-night-stop an einem Campingplatz mit Pool. Nur noch zwei Tage!",
         "map-center": false,
         "markerType": "blue"
     }
