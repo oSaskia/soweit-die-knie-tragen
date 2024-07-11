@@ -308,14 +308,14 @@ mymap.on('click', () => {
 });
 
 // Add the route layer to the map
-const layer_routenroute_1 = new L.geoJson(json_routenroute_1, {
+const route = new L.geoJson(routenroute, {
     attribution: '',
     interactive: false,
-    dataVar: 'json_routenroute_1',
-    layerName: 'layer_routenroute_1',
+    dataVar: 'routenroute',
+    layerName: 'route',
     style: getStyle(mymap.getZoom())
 });
-mymap.addLayer(layer_routenroute_1);
+mymap.addLayer(route);
 
 // Define style for the route layer based on the zoom level
 function getStyle(zoom) {
@@ -346,7 +346,7 @@ function getStyle(zoom) {
 
 // Update route style on zoom change
 mymap.on('zoomend', function() {
-    layer_routenroute_1.setStyle(getStyle(mymap.getZoom()));
+    route.setStyle(getStyle(mymap.getZoom()));
 });
 
 // Class to handle marker content
