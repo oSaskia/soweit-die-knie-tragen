@@ -483,7 +483,7 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-09.jpg",
         description: "Hauptsache gerade! Und vielleicht keine Schnecken heute Nacht.",
-        "map-center": true,
+        "map-center": false,
         "markerType": "blue"
     },
     {
@@ -493,6 +493,16 @@ const markersData = [
         mediaType: "image",
         mediaSrc: "./media/2024-07-10.jpg",
         description: "Ein one-night-stop an einem Campingplatz mit Pool. Nur noch zwei Tage!",
+        "map-center": true,
+        "markerType": "blue"
+    },
+    {
+        coordinates: "45.696389, 13.843357",
+        date: "11.07.2024",
+        title: "Schlafplatz",
+        mediaType: "image",
+        mediaSrc: "./media/2024-07-11.jpg",
+        description: "Hab in der Dämmerung diese Hiška gefunden. Eine Traditionelle mörtellose Steinhütte für Schäfer. Gruselig aber ungefährlich.",
         "map-center": false,
         "markerType": "blue"
     }
